@@ -1,6 +1,74 @@
-$brand-color: rgba(255, 72, 0, 0.701); 
+/* -------------------------------------------- */
+/*                Reset as in:                  */
+/* https://piccalil.li/blog/a-modern-css-reset/ */
 
+/* Box sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Reset margins */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+figure,
+picture {
+  margin: 0;
+}
+
+/* Reset font-sizes*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-weight: 400;
+}
+
+/* set up the body (only format properties), because webpack wont precompile the div correctly */
+// those display properties are defined at the top of this file in his own styled component
 body {
-   background-color: $brand-color;
-   color: white;
+   background-color: rgb(0, 23, 27);
+   color: black;
+//   background-color: hsl(var(--clr-dark));
+//   font-family: var(--ff-sans-normal);
+//   font-size: var(--fs-400);
+//   color: hsl(var(--clr-white));
+//   background-color: hsl(var(--clr-dark));
+//   line-height: 1.5;
+}
+
+/* make images easier to work with */
+img,
+picutre {
+  max-width: 100%;
+  display: block;
+}
+
+/* make form elements easier to work with */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* remove animations for people who've turned them off */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }

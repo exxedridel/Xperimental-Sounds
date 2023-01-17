@@ -1,10 +1,11 @@
 import React from "react";
-import "../styles/global.scss";
+import "./styles/global.scss";
+import HeroLogo from "./components/HeroLogo/HeroLogo";
 
 const App = () => {
   return (
     <div>
-      <h1>Xperimental Sounds</h1>
+      <HeroLogo/>
     </div>
   );
 };
