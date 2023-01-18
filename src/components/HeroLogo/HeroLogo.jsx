@@ -9,7 +9,7 @@ const HeroLogo = () => {
       <img src={BgStudioX} alt="Music Studio" />
       <div className="overlaped">
         <img className="logo" src={Logo} alt="Logo Xperimental Sounds" />
-        <p>Xperimental</p>
+        <p>Xperimental Sounds</p>
       </div>
     </HeroLogoStyled>
   );
