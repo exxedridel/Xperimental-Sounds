@@ -7,7 +7,7 @@ const App = () => {
     <div className="flow">
       <HeroLogo />
       <div className="container flex-center text-centered">
-        <h1>Estudio de producción y asesoramiento musical</h1>
+        <h1>Estudio de producción y asesoramiento musical.</h1>
         <div style={{ borderBottom: "1px solid white", width: "100px" }}></div>
         <p>León, Guanajuato, México</p>
       </div>

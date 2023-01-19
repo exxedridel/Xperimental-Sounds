@@ -41,8 +41,8 @@ export const HeroLogoStyled = styled.div`
     font-family: "Dela Gothic One", cursive;
     font-size: calc(30px + 2vmin);
     font-weight: 700;
-    color: white;
-    text-shadow: 0px 0px 5px Black, 0px 0px 15px #ffe600;
+    color: #f7f7f7;
+    text-shadow: 0px 0px 1px Black, 0px 0px 7.5px #ffe600;
   }
 
   // * Tablet & Landscape *
