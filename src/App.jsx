@@ -1,5 +1,5 @@
 import React from "react";
-import "./styles/global.scss";
+import "./styles/global.css";
 import HeroLogo from "./components/HeroLogo/HeroLogo";
 
 const App = () => {
@@ -58,6 +58,7 @@ const App = () => {
           itaque fugit iste sit. Minus, nemo!
         </p>
       </div>
+      <div className="footer"></div>
     </div>
   );
 };
