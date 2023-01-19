@@ -5,7 +5,6 @@ export const HeroLogoStyled = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
 
   & > img {
     background-size: cover;
@@ -36,12 +35,14 @@ export const HeroLogoStyled = styled.div`
     align-self: center;
     text-align: center;
     width: min-content;
-    line-height: 1;
+    letter-spacing: 0px;
+    line-height: 1.1;
     margin: 7.5px;
     font-family: "Dela Gothic One", cursive;
     font-size: calc(30px + 2vmin);
     font-weight: 700;
-    text-shadow: 5px 5px 5px #000000;
+    color: white;
+    text-shadow: 0px 0px 5px Black, 0px 0px 15px #ffe600;
   }
 
   // * Tablet & Landscape *
