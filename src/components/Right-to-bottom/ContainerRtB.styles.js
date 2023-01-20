@@ -11,9 +11,10 @@ export const ContainerRtBStyled = styled.div`
   & img {
     grid-area: image;
     height: 550px;
-    width: 100%;
+    width: 550px;
     object-fit: cover;
     margin-top: 2rem;
+    margin-inline: auto;
   }
 
   @media (min-width: 58em) {
@@ -23,7 +24,8 @@ export const ContainerRtBStyled = styled.div`
     grid-template-columns: repeat(2, minmax(0, 1fr));
     grid-template-areas: "article image";
     & img {
-      height: 100%;
+      min-height: 100%;
+      min-width: 100%;
       margin-top: 0;
     }
   }
