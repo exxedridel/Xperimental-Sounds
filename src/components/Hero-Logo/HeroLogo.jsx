@@ -1,7 +1,7 @@
 import React from "react";
 import { HeroLogoStyled } from "./HeroLogo.styles";
-import BgStudioX from "../../assets/audio-studio.webp";
-import Logo from "../../assets/SoloX.svg";
+import BgStudioX from "@assets/audio-studio.webp";
+import Logo from "@assets/SoloX.svg";
 
 const HeroLogo = () => {
   return (

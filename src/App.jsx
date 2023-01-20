@@ -1,6 +1,6 @@
 import React from "react";
 import "./styles/global.css";
-import HeroLogo from "./components/HeroLogo/HeroLogo";
+import HeroLogo from "./components/Hero-Logo/HeroLogo";
 
 const App = () => {
   return (
@@ -12,6 +12,7 @@ const App = () => {
         <p className="text-accent">León, Guanajuato, México</p>
       </div>
       <div className="container">
+
         <p>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae ab
           placeat corporis, nisi deleniti perspiciatis ipsum ratione magnam!
