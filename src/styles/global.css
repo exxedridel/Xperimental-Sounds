@@ -187,9 +187,9 @@ select {
 
 .container {
   padding-top: 1.5em;
-  padding-inline: clamp(0.7em, 4vw, 5.5em);
+  padding-inline: clamp(0.7em, 4vw, 4em);
   margin-inline: auto;
-  max-width: 77.5rem;
+  max-width: 78rem;
 }
 
 .flex-center {
