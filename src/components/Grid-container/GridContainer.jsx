@@ -1,10 +1,10 @@
 import React from "react";
-import { ContainerRtBStyled } from "./ContainerRtB.styles";
+import { GridContainerStyled } from "./GridContainer.styles";
 import StudioXS from "@assets/studio-xperimental.jpg";
 
-const ContainerRtB = () => {
+const GridContainer = () => {
   return (
-    <ContainerRtBStyled>
+    <GridContainerStyled>
       <article>
         <p>
           Somos un estudio de producción musical que tiene como objetivo
@@ -35,8 +35,8 @@ const ContainerRtB = () => {
         </p>
       </article>
       <img src={StudioXS} alt="Music studio" />
-    </ContainerRtBStyled>
+    </GridContainerStyled>
   );
 };
 
-export default ContainerRtB;
+export default GridContainer;

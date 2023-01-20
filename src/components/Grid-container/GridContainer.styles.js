@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const ContainerRtBStyled = styled.div`
+export const GridContainerStyled = styled.main`
   line-height: 1.6;
   font-style: italic;
 

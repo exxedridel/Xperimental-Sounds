@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const HeroLogoStyled = styled.div`
+export const HeroLogoStyled = styled.section`
   position: relative;
   display: flex;
   justify-content: center;

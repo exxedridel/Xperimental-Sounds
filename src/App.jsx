@@ -1,7 +1,7 @@
 import React from "react";
 import "./styles/global.css";
 import HeroLogo from "./components/Hero-Logo/HeroLogo";
-import ContainerRtB from "./components/Right-to-bottom/ContainerRtB";
+import GridContainer from "./components/Grid-container/GridContainer";
 import FlexCards from "./components/Flex-cards/FlexCards";
 
 const App = () => {
@@ -18,7 +18,7 @@ const App = () => {
         <p className="text-accent">León, Guanajuato, México</p>
       </div>
       <div className="container">
-        <ContainerRtB />
+        <GridContainer />
       </div>
       <div>
         <FlexCards />
