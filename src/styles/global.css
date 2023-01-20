@@ -9,6 +9,11 @@
   box-sizing: border-box;
 }
 
+html {
+  -webkit-text-size-adjust: 100%; /* Prevent font scaling in landscape while allowing user zoom */
+  /* scroll-behavior: smooth; */
+}
+
 /* Reset margins */
 body,
 h1,
@@ -85,12 +90,12 @@ select {
 
   /* font-sizes */
   --fs-900: clamp(2.7rem, 6vw + 1rem, 5.5rem);
-  --fs-800: 3.5rem;
-  --fs-700: 1.5rem;
-  --fs-600: 1rem;
-  --fs-500: 1.75rem;
-  --fs-400: 0.9375rem;
-  --fs-300: 1rem;
+  --fs-800: 2rem;
+  --fs-700: 1.75rem;
+  --fs-600: 1.5rem;
+  --fs-500: 1.25rem;
+  --fs-400: 1rem;
+  --fs-300: 0.9375rem;
   --fs-200: 0.875rem;
 }
 
@@ -181,10 +186,10 @@ select {
 /*----------------------------------------------*/
 
 .container {
-  padding-top: 1rem;
-  padding-inline: 10px;
+  padding-top: 1.5em;
+  padding-inline: clamp(0.7em, 4vw, 5.5em);
   margin-inline: auto;
-  max-width: 74rem;
+  max-width: 77.5rem;
 }
 
 .flex-center {
