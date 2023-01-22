@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const FlexCardsStyled = styled.section`
   background-color: hsl(var(--glow-clr) / 0.65);
   color: grey;
-  padding: 4rem 10px 3rem;
+  padding: 5rem 10px 4rem;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
