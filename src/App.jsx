@@ -4,8 +4,10 @@ import HeroLogo from "./components/Hero-Logo/HeroLogo";
 import GridContainer from "./components/Grid-container/GridContainer";
 import FlexCards from "./components/Flex-cards/FlexCards";
 import AccordionBS from "./components/Accordion-BS/AccordionBS";
+import Footer from "./components/Footer-simple/Footer";
 import facebook from "@assets/facebook.png";
 import youtube from "@assets/youtube.png";
+import whatsapp from "@assets/whatsapp.png";
 
 const App = () => {
   return (
@@ -47,17 +49,23 @@ const App = () => {
           <div
             style={{ borderBottom: "1px solid white", width: "100px" }}
           ></div>
-          <button className="btn btn-primary" type="button">
-            info@xperimentalsounds.com
-          </button>
+          <img src={whatsapp} alt="whatsapp logo" />
           <p>También encuéntranos es nuestras redes:</p>
           <div className="flex">
-            <img src={facebook} alt="facebook logo" />
-            <img src={youtube} alt="youtube logo" />
+            <img
+              src={facebook}
+              style={{ height: "56px", width: "56px" }}
+              alt="facebook logo"
+            />
+            <img
+              src={youtube}
+              style={{ height: "56px", width: "56px" }}
+              alt="youtube logo"
+            />
           </div>
         </div>
       </div>
-      <div className="footer"></div>
+      <Footer />
     </div>
   );
 };

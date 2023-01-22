@@ -14,7 +14,7 @@ const AccordionBS = () => {
               aria-expanded="false"
               aria-controls="flush-collapseOne"
             >
-              Accordion Item #1
+              ¿Cúanto cuesta producir una rola?
             </button>
           </h2>
           <div
@@ -24,9 +24,11 @@ const AccordionBS = () => {
             data-bs-parent="#accordionFlushExample"
           >
             <div className="accordion-body">
-              Placeholder content for this accordion, which is intended to
-              demonstrate the <code>.accordion-flush</code> className. This is the
-              first item's accordion body.
+              Todo depende del tipo de proyecto que tengas y de la calidad que
+              busques. También dependerá de los estudios en donde grabemos, si
+              habrá músicos profesionales en tus rolas o no, etc. Lo mejor es
+              que agendemos una cita y platiquemos al respecto para que podamos
+              encontrar el mejor camino para tu carrera musical.
             </div>
           </div>
         </div>
@@ -40,7 +42,7 @@ const AccordionBS = () => {
               aria-expanded="false"
               aria-controls="flush-collapseTwo"
             >
-              Accordion Item #2
+              ¿Pueden solo mezclar o masterizar mis rolas?
             </button>
           </h2>
           <div
@@ -50,10 +52,8 @@ const AccordionBS = () => {
             data-bs-parent="#accordionFlushExample"
           >
             <div className="accordion-body">
-              Placeholder content for this accordion, which is intended to
-              demonstrate the <code>.accordion-flush</code> className. This is the
-              second item's accordion body. Let's imagine this being filled with
-              some actual content.
+              ¡Claro! Contamos con gran variedad de ingenieros de mezcla y
+              máster según tu presupuesto y la calidad buscada.
             </div>
           </div>
         </div>
@@ -67,7 +67,7 @@ const AccordionBS = () => {
               aria-expanded="false"
               aria-controls="flush-collapseThree"
             >
-              Accordion Item #3
+              ¿Hay alguna promoción?
             </button>
           </h2>
           <div
@@ -77,12 +77,14 @@ const AccordionBS = () => {
             data-bs-parent="#accordionFlushExample"
           >
             <div className="accordion-body">
-              Placeholder content for this accordion, which is intended to
-              demonstrate the <code>.accordion-flush</code> className. This is the
-              third item's accordion body. Nothing more exciting happening here
-              in terms of content, but just filling up the space to make it
-              look, at least at first glance, a bit more representative of how
-              this would look in a real-world application.
+              Actualmente tenemos un plan de puntos en donde se te regresa el
+              10% del total de producción de tu rola (o rolas) en forma de
+              puntos para que los puedas canjear posteriormente por descuentos
+              en producciones y/o creación de contenido. Así mismo, si decides
+              producir tus rolas con nosotros, mientras estamos trabajando tu
+              material inédito, te apoyaremos con la realización de alguna
+              LiveSession acústica y/o cover de manera gratuita para que sigas
+              generando contenido. Además contamos con planes de pago.
             </div>
           </div>
         </div>
