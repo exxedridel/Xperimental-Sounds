@@ -10,7 +10,7 @@ const FlexCards = () => {
 
   return (
     <FlexCardsStyled className="box-shadow">
-      <div onClick={scrollToContact} className="card">
+      <article onClick={scrollToContact} className="card">
         <img
           className="img-production"
           src="https://images.pexels.com/photos/2876659/pexels-photo-2876659.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
@@ -31,8 +31,8 @@ const FlexCards = () => {
             exercitationem eligendi? Commodi porro et.
           </p>
         </div>
-      </div>
-      <div onClick={scrollToContact} className="card">
+      </article>
+      <article onClick={scrollToContact} className="card">
         <img
           className="img-production"
           src="https://images.pexels.com/photos/2876659/pexels-photo-2876659.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
@@ -53,8 +53,8 @@ const FlexCards = () => {
             exercitationem eligendi? Commodi porro et.
           </p>
         </div>
-      </div>
-      <div onClick={scrollToContact} className="card">
+      </article>
+      <article onClick={scrollToContact} className="card">
         <img
           className="img-production"
           src="https://images.pexels.com/photos/2876659/pexels-photo-2876659.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
@@ -75,7 +75,7 @@ const FlexCards = () => {
             exercitationem eligendi? Commodi porro et.
           </p>
         </div>
-      </div>
+      </article>
     </FlexCardsStyled>
   );
 };

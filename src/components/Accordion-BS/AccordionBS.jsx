@@ -2,7 +2,7 @@ import React from "react";
 
 const AccordionBS = () => {
   return (
-    <div className="box-shadow">
+    <section className="box-shadow">
       <div className="accordion accordion-flush" id="accordionFlushExample">
         <div className="accordion-item">
           <h2 className="accordion-header" id="flush-headingOne">
@@ -90,7 +90,7 @@ const AccordionBS = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
