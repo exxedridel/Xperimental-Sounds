@@ -31,7 +31,7 @@ export const HeroLogoStyled = styled.section`
     aspect-ratio: 1;
     border-radius: 50%;
     border: 0;
-    box-shadow: inset 0px 0px 100px hsl(var(--glow-clr) / 0.9);
+    box-shadow: inset 0px 0px 100px hsl(var(--glow-clr) / 0.7);
   }
 
   .overlaped p {
