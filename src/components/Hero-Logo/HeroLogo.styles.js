@@ -12,6 +12,7 @@ export const HeroLogoStyled = styled.section`
     height: 90vh;
     object-fit: cover;
     opacity: 1;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
   }
 
   .overlaped {
@@ -19,17 +20,18 @@ export const HeroLogoStyled = styled.section`
     display: flex;
     flex-direction: column;
     margin-inline: 1rem;
+    cursor: pointer;
   }
 
   .overlaped img {
     align-self: center;
     /* width: calc(300px + 5vmin); */
-    width: clamp(260px, 40vw + 1rem, 380px);
-    padding: 1.5em;
+    width: clamp(260px, 35vw, 340px);
+    padding: 1.5rem;
     aspect-ratio: 1;
     border-radius: 50%;
     border: 0;
-    box-shadow: inset 0px 0px 75px hsl(var(--glow-clr) / 0.9);
+    box-shadow: inset 0px 0px 100px hsl(var(--glow-clr) / 0.9);
   }
 
   .overlaped p {
@@ -37,13 +39,13 @@ export const HeroLogoStyled = styled.section`
     text-align: center;
     width: min-content;
     letter-spacing: 0px;
-    line-height: 1.1;
+    line-height: 0.925;
     margin: 7.5px;
     font-family: "Dela Gothic One", cursive;
     font-size: calc(30px + 2vmin);
     font-weight: 700;
-    color: #f7f7f7;
-    text-shadow: 0px 0px 1px Black, 0px 0px 7.5px hsl(var(--glow-clr));
+    color: hsl(var(--white));
+    text-shadow: 0px 0px 1px grey, 0px 0px 6px hsl(var(--glow-clr));
   }
 
   // * Tablet & Landscape *

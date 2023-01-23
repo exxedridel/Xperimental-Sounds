@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const FlexCardsStyled = styled.section`
-  background-color: hsl(var(--glow-clr) / 0.65);
+  background-color: hsl(var(--glow-clr) / 0.7);
   color: grey;
   padding: 5rem 10px 4rem;
   display: flex;
@@ -11,15 +11,21 @@ export const FlexCardsStyled = styled.section`
 
   .card {
     flex-basis: 330px;
-    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
+    border:none;
     border-radius: 3px;
     display: flex;
     flex-direction: column;
     background-color: white;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+    cursor: pointer;
   }
+  .card:hover {
+    margin: -3px -5px;
+    box-shadow: 0 0.1rem 1rem rgba(0,0,0,0.6);
+}
 
   .card .img-production {
-    
     width: 100%;
     height: 220px;
     align-self: center;

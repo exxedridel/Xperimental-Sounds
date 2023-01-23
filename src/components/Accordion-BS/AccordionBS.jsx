@@ -2,7 +2,7 @@ import React from "react";
 
 const AccordionBS = () => {
   return (
-    <div>
+    <div className="box-shadow">
       <div className="accordion accordion-flush" id="accordionFlushExample">
         <div className="accordion-item">
           <h2 className="accordion-header" id="flush-headingOne">
@@ -14,7 +14,7 @@ const AccordionBS = () => {
               aria-expanded="false"
               aria-controls="flush-collapseOne"
             >
-              ¿Cúanto cuesta producir una rola?
+              Lorem ipsum dolor sit amet?
             </button>
           </h2>
           <div
@@ -24,11 +24,12 @@ const AccordionBS = () => {
             data-bs-parent="#accordionFlushExample"
           >
             <div className="accordion-body">
-              Todo depende del tipo de proyecto que tengas y de la calidad que
-              busques. También dependerá de los estudios en donde grabemos, si
-              habrá músicos profesionales en tus rolas o no, etc. Lo mejor es
-              que agendemos una cita y platiquemos al respecto para que podamos
-              encontrar el mejor camino para tu carrera musical.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
+              laudantium iure assumenda quas ut animi, consequatur at sequi
+              neque quibusdam rem quos ipsam cumque expedita eos asperiores
+              dignissimos laboriosam? Suscipit optio, possimus at asperiores
+              neque laudantium beatae atque fugiat excepturi repellendus
+              officia?
             </div>
           </div>
         </div>
@@ -42,7 +43,7 @@ const AccordionBS = () => {
               aria-expanded="false"
               aria-controls="flush-collapseTwo"
             >
-              ¿Pueden solo mezclar o masterizar mis rolas?
+              Lorem ipsum dolor sit amet consectetur adipisicing?
             </button>
           </h2>
           <div
@@ -52,8 +53,9 @@ const AccordionBS = () => {
             data-bs-parent="#accordionFlushExample"
           >
             <div className="accordion-body">
-              ¡Claro! Contamos con gran variedad de ingenieros de mezcla y
-              máster según tu presupuesto y la calidad buscada.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia
+              nulla illum voluptatum animi eaque asperiores sequi ex impedit
+              eveniet quasi
             </div>
           </div>
         </div>
@@ -67,7 +69,7 @@ const AccordionBS = () => {
               aria-expanded="false"
               aria-controls="flush-collapseThree"
             >
-              ¿Hay alguna promoción?
+              Lorem ipsum dolor?
             </button>
           </h2>
           <div
@@ -77,14 +79,13 @@ const AccordionBS = () => {
             data-bs-parent="#accordionFlushExample"
           >
             <div className="accordion-body">
-              Actualmente tenemos un plan de puntos en donde se te regresa el
-              10% del total de producción de tu rola (o rolas) en forma de
-              puntos para que los puedas canjear posteriormente por descuentos
-              en producciones y/o creación de contenido. Así mismo, si decides
-              producir tus rolas con nosotros, mientras estamos trabajando tu
-              material inédito, te apoyaremos con la realización de alguna
-              LiveSession acústica y/o cover de manera gratuita para que sigas
-              generando contenido. Además contamos con planes de pago.
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit
+              ducimus cum corporis consequatur officiis iure perferendis alias
+              velit eius vel animi, aut nobis fugit eaque ipsa mollitia neque
+              eos qui adipisci ratione illo? Impedit ex adipisci consectetur!
+              Alias dolor corporis fugit sapiente facere inventore tempora nihil
+              nostrum velit, dicta magni rerum dignissimos placeat in quae!
+              Libero ipsa aspernatur quis deserunt?
             </div>
           </div>
         </div>

@@ -9,4 +9,12 @@ export const FooterStyled = styled.footer`
    border-bottom: 1px solid white; 
    width: 100px;
   }
+
+ & a {
+  transition: all 0.3s ease;
+  color: hsl(var(--white) / 0.85);
+ }
+ & a:hover {
+  color: hsl(var(--white) / 1);
+ }
 `;

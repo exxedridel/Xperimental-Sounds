@@ -15,6 +15,8 @@ export const GridContainerStyled = styled.main`
     object-fit: cover;
     margin-top: 2rem;
     margin-inline: auto;
+    border-radius: 3px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
   }
 
   @media (min-width: 58em) {

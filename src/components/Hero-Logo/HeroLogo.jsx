@@ -4,10 +4,15 @@ import BgStudioX from "@assets/audio-studio.webp";
 import Logo from "@assets/XSoundsLogo.svg";
 
 const HeroLogo = () => {
+  function scrollToContent() {
+    const element = document.getElementById("main-content");
+    element.scrollIntoView();
+  }
+
   return (
     <HeroLogoStyled>
       <img src={BgStudioX} alt="Music Studio" />
-      <div className="overlaped">
+      <div onClick={scrollToContent} className="overlaped">
         <img className="logo" src={Logo} alt="Logo Xperimental Sounds" />
         <p>Xperimental Sounds</p>
       </div>
