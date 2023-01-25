@@ -27,11 +27,11 @@ export const HeroLogoStyled = styled.section`
     align-self: center;
     /* width: calc(300px + 5vmin); */
     width: clamp(260px, 35vw, 340px);
-    padding: 1.5rem;
+    padding: 0.5rem;
     aspect-ratio: 1;
     border-radius: 50%;
     border: 0;
-    box-shadow: inset 0px 0px 100px hsl(var(--glow-clr) / 0.7);
+    /* box-shadow: inset 0px 0px 100px hsl(var(--glow-clr) / 0.9); */
   }
 
   .overlaped p {
