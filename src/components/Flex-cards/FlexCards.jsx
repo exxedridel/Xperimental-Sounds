@@ -23,8 +23,8 @@ const FlexCards = () => {
           <h3 className="uppercase ff-sans-cond letter-spacing-3">Negocios</h3>
           <p>
             En el área de producción de audio empresarial y de negocios
-            llevaremos a tu negocio al siguiente nivel. Ofrecemosmúsicapara
-            comerciales de radio o T.V., spots,redes sociales o cualquier
+            llevaremos a tu negocio al siguiente nivel. Ofrecemos música para
+            comerciales de radio o T.V., spots, redes sociales o cualquier
             mercado al que quieras llegar. No importa que tan pequeño o grande
             sea tu proyecto, nuestro equipo te acompañara en todo el proceso.
           </p>
@@ -45,7 +45,7 @@ const FlexCards = () => {
           </h3>
           <p>
             Si tienes un proyecto musical y te faltan músicos de calidad para
-            llevar tu interpretación al siguiente nivelnuestra Live Band te
+            llevar tu interpretación al siguiente nivel nuestra Live Band te
             puede ayudar. Contamos con los mejores músicos de la región.
           </p>
         </div>
@@ -61,14 +61,13 @@ const FlexCards = () => {
         </div>
         <div className="info fs-300">
           <h3 className="uppercase ff-sans-cond letter-spacing-3">
-          Bases musicales personalizadas (beats)
+            Bases musicales personalizadas (beats)
           </h3>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Voluptatibus accusantium a perferendis, cumque ab totam ea,
-            repudiandae minima odit porro fugiat. Accusantium tempora iusto
-            quibusdam delectus porro voluptatem sequi quas, earum nesciunt omnis
-            exercitationem eligendi? Commodi porro et.
+            ¿Estas harto de practicar tus con música/beats de uso compartido en
+            YouTube? Nosotros podemos componer una base personalizada para que
+            lleves tus presentaciones al máximo nivel de calidad. Contamos con
+            instrumentales de todos géneros
           </p>
         </div>
       </article>
