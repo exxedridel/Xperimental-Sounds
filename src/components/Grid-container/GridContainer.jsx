@@ -5,38 +5,33 @@ import StudioXS from "@assets/studio-xperimental.jpg";
 const GridContainer = () => {
   return (
     <GridContainerStyled>
-      <article>
+      <article className="flow-small">
+        <h2>¿Quiénes somos?</h2>
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni at
-          quos praesentium non repudiandae sit est eligendi similique modi
-          molestiae unde voluptas commodi, sunt excepturi accusamus, ex
-          distinctio exercitationem impedit culpa accusantium aut? Voluptatum
-          reprehenderit, officia voluptate placeat pariatur nostrum ducimus in,
-          cumque accusantium, ipsa nihil. Consequatur eligendi voluptate
-          exercitationem natus obcaecati ipsam voluptatum maxime repellat autem
-          et dolorum at suscipit adipisci, perspiciatis aliquid! Unde culpa
-          nulla praesentium numquam cum repellat esse blanditiis sint nobis
-          aperiam facilis, molestiae maiores iste aliquid mollitia.
+          Somos una incubadora musical/casa productora dedicada la composición,
+          producción, interpretación y arreglos musicales de cualquier género.
+          Contamos con compositores, arreglistas, músicos e ingenieros en audio
+          con estudios formales egresados de las mejores universidades del país.
+          15 años de experiencia con artistas de distintos géneros nos
+          respaldan. Ofrecemos también la producción de audio empresarial y de
+          negocios adaptándonos a cualquier tipo de negocio y tamaño de tu
+          proyecto.
         </p>
         <br />
-        <ul>
+        {/* <ul>
           <li>Lorem ipsum dolor sit amet.</li>
           <li>Lorem, ipsum.</li>
           <li>Lorem, ipsum dolor.</li>
           <li>Lorem um...</li>
-        </ul>
+        </ul> */}
+        <h3>Incubadora musical</h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit ullam
-          aliquid ut veritatis praesentium optio ratione debitis libero
-          voluptates, saepe recusandae beatae quia corporis et voluptatibus
-          facilis suscipit laudantium deserunt commodi! Maiores ex a tempore
-          voluptate consectetur enim quis laborum quo voluptatibus reiciendis
-          alias iusto repellendus aliquid, numquam voluptas fugiat deleniti
-          rerum aperiam illum minus illo! Explicabo aliquam, impedit omnis
-          maxime ipsum esse, consequatur, blanditiis accusantium molestias
-          deleniti pariatur odio. Beatae aut excepturi placeat illum. Quae
-          officiis facere reiciendis, est in quaerat ratione velit maxime. Ad
-          expedita et laudantium.
+          En nuestra incubadora musical te ayudaremos a hacer realidad cualquier
+          idea musical que quieras llevar a cabo. Nuestros compositores te
+          ayudaran en todo el proceso que conlleva crear una canción hasta un
+          álbum. Nosotros no creemos en la música mala o buena, todas las
+          creaciones tienen su lugar y sin importar que tipo de música te
+          interese producir nosotros podemos ayudarte.
         </p>
       </article>
       <img src={StudioXS} alt="Music studio" />

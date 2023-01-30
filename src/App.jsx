@@ -30,23 +30,26 @@ const App = () => {
             León Gto, México
           </p>
         </div>
-        <div className="container">
-          <GridContainer />
-        </div>
-        <div>
-          <FlexCards />
-        </div>
+
         <div className="container flow">
-          <div className="flex-center text-centered">
+          {/* <div className="flex-center text-centered">
             <h2 className="uppercase ff-sans-cond letter-spacing-3">
               Preguntas frecuentes
             </h2>
             <div
               style={{ borderBottom: "1px solid white", width: "100px" }}
             ></div>
-          </div>
+          </div> */}
           <AccordionBS />
         </div>
+
+        <div className="container">
+          <GridContainer />
+        </div>
+        <div>
+          <FlexCards />
+        </div>
+
         <div id="contact-sect" className="container">
           <div className="flex-center text-centered">
             <h2 className="uppercase ff-sans-cond letter-spacing-3">

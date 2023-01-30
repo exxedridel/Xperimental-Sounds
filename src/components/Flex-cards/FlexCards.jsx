@@ -20,15 +20,13 @@ const FlexCards = () => {
           <img src={productionIcon} alt="production icon" />
         </div>
         <div className="info fs-300">
-          <h3 className="uppercase ff-sans-cond letter-spacing-3">
-            Lorem, ipsum dolor.
-          </h3>
+          <h3 className="uppercase ff-sans-cond letter-spacing-3">Negocios</h3>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Voluptatibus accusantium a perferendis, cumque ab totam ea,
-            repudiandae minima odit porro fugiat. Accusantium tempora iusto
-            quibusdam delectus porro voluptatem sequi quas, earum nesciunt omnis
-            exercitationem eligendi? Commodi porro et.
+            En el área de producción de audio empresarial y de negocios
+            llevaremos a tu negocio al siguiente nivel. Ofrecemosmúsicapara
+            comerciales de radio o T.V., spots,redes sociales o cualquier
+            mercado al que quieras llegar. No importa que tan pequeño o grande
+            sea tu proyecto, nuestro equipo te acompañara en todo el proceso.
           </p>
         </div>
       </article>
@@ -43,14 +41,12 @@ const FlexCards = () => {
         </div>
         <div className="info fs-300">
           <h3 className="uppercase ff-sans-cond letter-spacing-3">
-            Lorem ipsum.
+            Athoxa Live Band
           </h3>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Voluptatibus accusantium a perferendis, cumque ab totam ea,
-            repudiandae minima odit porro fugiat. Accusantium tempora iusto
-            quibusdam delectus porro voluptatem sequi quas, earum nesciunt omnis
-            exercitationem eligendi? Commodi porro et.
+            Si tienes un proyecto musical y te faltan músicos de calidad para
+            llevar tu interpretación al siguiente nivelnuestra Live Band te
+            puede ayudar. Contamos con los mejores músicos de la región.
           </p>
         </div>
       </article>
@@ -65,7 +61,7 @@ const FlexCards = () => {
         </div>
         <div className="info fs-300">
           <h3 className="uppercase ff-sans-cond letter-spacing-3">
-            Lorem ipsum dolor sit.
+          Bases musicales personalizadas (beats)
           </h3>
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit.
