@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const FooterStyled = styled.footer`
-  background-color: hsl(var(--neon-blue) / 0.2);
+  background-color: hsl(var(--black) / 0.5);
   padding: 4rem 1rem;
   text-align: center;
 
@@ -12,7 +12,7 @@ export const FooterStyled = styled.footer`
 
  & a {
   transition: all 0.3s ease;
-  color: hsl(var(--white) / 0.85);
+  color: hsl(var(--white) / 0.6);
  }
  & a:hover {
   color: hsl(var(--white) / 1);

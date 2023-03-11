@@ -2,6 +2,7 @@ import React from "react";
 import HeroLogo from "./components/Hero-Logo/HeroLogo";
 import GridContainer from "./components/Grid-container/GridContainer";
 import FlexCards from "./components/Flex-cards/FlexCards";
+import FlexLinks from "./components/Flex-links/FlexLinks";
 import AccordionBS from "./components/Accordion-BS/AccordionBS";
 import Footer from "./components/Footer-simple/Footer";
 import facebook from "@assets/facebook.png";
@@ -18,13 +19,16 @@ const App = () => {
     <>
       <div className="flow">
         <HeroLogo />
-        <div id="main-content" className="container flex-center text-centered">
+        <div id="main-content" className="container flex-center-small text-centered">
           <h1 className="uppercase fs-900">Casa Productora</h1>
           <div className="hr-div"></div>
           <h1 className="uppercase fs-900">Incubadora musical</h1>
           {/* <p className="uppercase text-accent ff-sans-cond letter-spacing-3">
             León Gto, México
           </p> */}
+        </div>
+        <div className="container">
+          <FlexLinks />
         </div>
 
         <div className="container">
@@ -51,7 +55,8 @@ const App = () => {
             <h2 className="uppercase ff-sans-cond letter-spacing-3">
               Contáctanos
             </h2>
-            <div className="hr-contact"
+            <div
+              className="hr-contact"
               style={{ borderBottom: "1px solid white", width: "100px" }}
             ></div>
             <a href="/">

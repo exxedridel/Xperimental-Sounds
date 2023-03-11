@@ -210,6 +210,13 @@ select {
   place-items: center;
 }
 
+.flex-center-small {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  place-items: center;
+}
+
 .flow > *:where(:not(:first-child)) {
   margin-top: clamp(4.25rem, 5.5vw + 1rem, 6.5rem);
 }

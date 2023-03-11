@@ -1,9 +1,9 @@
 import React from "react";
 import { FlexCardsStyled } from "./FlexCards.styles";
 import productionIcon from "@assets/production-icon.png";
-import negocios from "@assets/negocios.jpg"
-import liveBand from "@assets/live-band.jpg"
-import beatsPersonalizados from "@assets/beats-personalizados.jpg"
+import negocios from "@assets/negocios.jpg";
+import liveBand from "@assets/live-band.jpg";
+import ownBeats from "@assets/beats-personalizados.jpg";
 
 const FlexCards = () => {
   function scrollToContact() {
@@ -14,11 +14,7 @@ const FlexCards = () => {
   return (
     <FlexCardsStyled className="box-shadow">
       <article onClick={scrollToContact} className="card">
-        <img
-          className="img-card"
-          src={negocios}
-          alt="contact card"
-        />
+        <img className="img-card" src={negocios} alt="contact card" />
         <div className="icon-production">
           <img src={productionIcon} alt="production icon" />
         </div>
@@ -34,11 +30,7 @@ const FlexCards = () => {
         </div>
       </article>
       <article onClick={scrollToContact} className="card">
-        <img
-          className="img-card"
-          src={liveBand}
-          alt="contact card"
-        />
+        <img className="img-card" src={liveBand} alt="contact card" />
         <div className="icon-production">
           <img src={productionIcon} alt="production icon" />
         </div>
@@ -56,7 +48,7 @@ const FlexCards = () => {
       <article onClick={scrollToContact} className="card">
         <img
           className="img-card"
-          src={beatsPersonalizados}
+          src={ownBeats}
           alt="contact card"
         />
         <div className="icon-production">
