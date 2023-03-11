@@ -1,5 +1,4 @@
 import React from "react";
-import "./styles/global.css";
 import HeroLogo from "./components/Hero-Logo/HeroLogo";
 import GridContainer from "./components/Grid-container/GridContainer";
 import FlexCards from "./components/Flex-cards/FlexCards";
@@ -11,6 +10,8 @@ import whatsapp from "@assets/whatsapp.png";
 import instagram from "@assets/instagram.png";
 import { FixedButton } from "./styles/FixedButton.styles";
 import whatsappColor from "@assets/whatsapp-color.png";
+import "./styles/global.css";
+import "./styles/App.css";
 
 const App = () => {
   return (
@@ -18,29 +19,12 @@ const App = () => {
       <div className="flow">
         <HeroLogo />
         <div id="main-content" className="container flex-center text-centered">
-          <h1 className="uppercase fs-900">
-            Casa Productora,
-            <br />
-            Incubadora Musical
-          </h1>
-          <div
-            style={{ borderBottom: "1px solid white", width: "100px" }}
-          ></div>
-          <p className="uppercase text-accent ff-sans-cond letter-spacing-3">
+          <h1 className="uppercase fs-900">Casa Productora</h1>
+          <div className="hr-div"></div>
+          <h1 className="uppercase fs-900">Incubadora musical</h1>
+          {/* <p className="uppercase text-accent ff-sans-cond letter-spacing-3">
             León Gto, México
-          </p>
-        </div>
-
-        <div className="container flow">
-          {/* <div className="flex-center text-centered">
-            <h2 className="uppercase ff-sans-cond letter-spacing-3">
-              Preguntas frecuentes
-            </h2>
-            <div
-              style={{ borderBottom: "1px solid white", width: "100px" }}
-            ></div>
-          </div> */}
-          <AccordionBS />
+          </p> */}
         </div>
 
         <div className="container">
@@ -50,12 +34,24 @@ const App = () => {
           <FlexCards />
         </div>
 
+        <div className="container flow">
+          <div className="flex-center text-centered">
+            <h2 className="uppercase ff-sans-cond letter-spacing-3">
+              Preguntas frecuentes
+            </h2>
+            <div
+              style={{ borderBottom: "1px solid white", width: "100px" }}
+            ></div>
+          </div>
+          <AccordionBS />
+        </div>
+
         <div id="contact-sect" className="container">
           <div className="flex-center text-centered">
             <h2 className="uppercase ff-sans-cond letter-spacing-3">
               Contáctanos
             </h2>
-            <div
+            <div className="hr-contact"
               style={{ borderBottom: "1px solid white", width: "100px" }}
             ></div>
             <a href="/">
@@ -93,7 +89,11 @@ const App = () => {
         <Footer />
       </div>
       <a href="/">
-        <FixedButton src={whatsappColor} className="opaque-img" alt="whatsapp logo"></FixedButton>
+        <FixedButton
+          src={whatsappColor}
+          className="opaque-img"
+          alt="whatsapp logo"
+        ></FixedButton>
       </a>
     </>
   );

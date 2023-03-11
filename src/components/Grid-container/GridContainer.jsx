@@ -1,6 +1,6 @@
 import React from "react";
 import { GridContainerStyled } from "./GridContainer.styles";
-import StudioXS from "@assets/studio-xperimental.jpg";
+import incubadoraMusical from "@assets/incubadora-musical.jpg";
 
 const GridContainer = () => {
   return (
@@ -34,7 +34,7 @@ const GridContainer = () => {
           interese producir nosotros podemos ayudarte.
         </p>
       </article>
-      <img src={StudioXS} alt="Music studio" />
+      <img src={incubadoraMusical} alt="performing artist" />
     </GridContainerStyled>
   );
 };

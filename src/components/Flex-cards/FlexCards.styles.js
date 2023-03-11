@@ -1,17 +1,17 @@
 import styled from "styled-components";
 
 export const FlexCardsStyled = styled.section`
-  background-color: hsl(var(--glow-clr) / 0.7);
+  background-color: hsl(var(--glow-clr) / 0.8);
   color: grey;
   padding: 5rem 10px 4rem;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 30px;
+  gap: 4rem;
 
   .card {
     flex-basis: 330px;
-    border:none;
+    border: none;
     border-radius: 3px;
     display: flex;
     flex-direction: column;
@@ -21,11 +21,11 @@ export const FlexCardsStyled = styled.section`
     cursor: pointer;
   }
   .card:hover {
-    margin: -3px -5px;
-    box-shadow: 0 0.1rem 1rem rgba(0,0,0,0.6);
-}
+    transform: translateY(-5%);
+    box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 0.6);
+  }
 
-  .card .img-production {
+  .card .img-card {
     width: 100%;
     height: 220px;
     align-self: center;
@@ -34,14 +34,14 @@ export const FlexCardsStyled = styled.section`
   }
 
   .icon-production {
-   margin-top: -32px;
+    margin-top: -32px;
   }
 
   .icon-production img {
     margin-inline: auto;
     width: 68px;
     border-radius: 50%;
-    border: 5px solid hsl(var(--neon-blue)/0.5);
+    border: 5px solid hsl(var(--neon-blue) / 0.5);
     box-shadow: inset 0px 0px 30px hsl(var(--white) / 1);
   }
 

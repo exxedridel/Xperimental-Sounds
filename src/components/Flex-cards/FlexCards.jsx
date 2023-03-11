@@ -1,6 +1,9 @@
 import React from "react";
 import { FlexCardsStyled } from "./FlexCards.styles";
 import productionIcon from "@assets/production-icon.png";
+import negocios from "@assets/negocios.jpg"
+import liveBand from "@assets/live-band.jpg"
+import beatsPersonalizados from "@assets/beats-personalizados.jpg"
 
 const FlexCards = () => {
   function scrollToContact() {
@@ -12,8 +15,8 @@ const FlexCards = () => {
     <FlexCardsStyled className="box-shadow">
       <article onClick={scrollToContact} className="card">
         <img
-          className="img-production"
-          src="https://images.pexels.com/photos/2876659/pexels-photo-2876659.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          className="img-card"
+          src={negocios}
           alt="contact card"
         />
         <div className="icon-production">
@@ -32,8 +35,8 @@ const FlexCards = () => {
       </article>
       <article onClick={scrollToContact} className="card">
         <img
-          className="img-production"
-          src="https://images.pexels.com/photos/2876659/pexels-photo-2876659.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          className="img-card"
+          src={liveBand}
           alt="contact card"
         />
         <div className="icon-production">
@@ -52,8 +55,8 @@ const FlexCards = () => {
       </article>
       <article onClick={scrollToContact} className="card">
         <img
-          className="img-production"
-          src="https://images.pexels.com/photos/2876659/pexels-photo-2876659.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          className="img-card"
+          src={beatsPersonalizados}
           alt="contact card"
         />
         <div className="icon-production">
@@ -67,7 +70,7 @@ const FlexCards = () => {
             ¿Estas harto de practicar tus con música/beats de uso compartido en
             YouTube? Nosotros podemos componer una base personalizada para que
             lleves tus presentaciones al máximo nivel de calidad. Contamos con
-            instrumentales de todos géneros
+            instrumentales de todos géneros.
           </p>
         </div>
       </article>

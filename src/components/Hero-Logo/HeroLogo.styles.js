@@ -6,14 +6,20 @@ export const HeroLogoStyled = styled.section`
   justify-content: center;
   align-items: center;
 
-  & > img {
+  .bgColor {
+    width: 100%;
+    height: 70vh;
+    background-color: #ffde59;
+  }
+
+  /* & > img {
     background-size: cover;
     width: 100%;
     height: 90vh;
     object-fit: cover;
     opacity: 1;
     box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
-  }
+  } */
 
   .overlaped {
     position: absolute;
@@ -41,11 +47,10 @@ export const HeroLogoStyled = styled.section`
     letter-spacing: 0px;
     line-height: 0.925;
     margin: 7.5px;
-    font-family: "Dela Gothic One", cursive;
+    font-family: var(--ff-serif);
     font-size: calc(30px + 2vmin);
     font-weight: 700;
-    color: hsl(var(--white));
-    text-shadow: 0px 0px 1px grey, 0px 0px 6px hsl(var(--glow-clr));
+    color: hsl(var(--black));
   }
 
   // * Tablet & Landscape *
