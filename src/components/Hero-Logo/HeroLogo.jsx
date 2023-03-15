@@ -1,6 +1,6 @@
 import React from "react";
 import { HeroLogoStyled } from "./HeroLogo.styles";
-import Logo from "@assets/XSounds-logo-circle.svg";
+import Logo from "@assets/xperimental-sounds-logo.png";
 
 const HeroLogo = () => {
   function scrollToContent() {
@@ -13,7 +13,7 @@ const HeroLogo = () => {
       <div className="bgColor"></div>
       <div onClick={scrollToContent} className="overlaped">
         <img className="logo" src={Logo} alt="Logo Xperimental Sounds" />
-        <p>Xperimental Sounds</p>
+        <p>Xperimental <span>Sounds</span></p>
       </div>
     </HeroLogoStyled>
   );

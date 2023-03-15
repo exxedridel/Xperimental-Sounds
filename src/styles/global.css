@@ -2,6 +2,11 @@
 /*                 Variables                    */
 /*----------------------------------------------*/
 
+@font-face {
+  font-family: 'TheSeasons';
+  src: url('../assets/fonts/theseasons-reg.otf') format('opentype');
+}
+
 :root {
   /* colors */
   --background-clr: 190 100% 11%;
@@ -9,6 +14,8 @@
   --neon-blue: 195 100% 50%;
   --white: 0 0% 96%;
   --black: 0 0% 0%;
+  --brand-blue: 213 100% 33%;
+  --brand-yellow: 48 100% 67%;
 
   /* font-families */
   --ff-serif: "Roboto", sans-serif;

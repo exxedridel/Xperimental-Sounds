@@ -9,7 +9,7 @@ export const HeroLogoStyled = styled.section`
   .bgColor {
     width: 100%;
     height: 70vh;
-    background-color: #ffde59;
+    background-color: hsl(var(--brand-yellow));
   }
 
   /* & > img {
@@ -44,13 +44,16 @@ export const HeroLogoStyled = styled.section`
     align-self: center;
     text-align: center;
     width: min-content;
-    letter-spacing: 0px;
-    line-height: 0.925;
+    letter-spacing: 2px;
+    line-height: 1.1;
     margin: 7.5px;
-    font-family: var(--ff-serif);
+    font-family: "TheSeasons", sans-serif;
     font-size: calc(30px + 2vmin);
-    font-weight: 700;
+    font-weight: 500;
     color: hsl(var(--black));
+  }
+  .overlaped span {
+    color: hsl(var(--brand-blue));
   }
 
   // * Tablet & Landscape *
