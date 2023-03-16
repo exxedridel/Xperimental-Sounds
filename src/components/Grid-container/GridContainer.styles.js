@@ -1,8 +1,15 @@
 import styled from "styled-components";
 
 export const GridContainerStyled = styled.main`
-  line-height: 1.6;
-  font-style: italic;
+  & h2 {
+    font-size: var(--fs-800);
+  }
+
+  & p {
+    line-height: 1.6;
+    /* font-style: italic; */
+    font-size: var(--fs-600);
+  }
 
   & article {
     grid-area: article;

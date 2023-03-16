@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const FlexCardsStyled = styled.section`
   background-color: hsl(var(--glow-clr) / 0.8);
+  border-radius: 4px;
   color: grey;
   padding: 5rem 10px 4rem;
   display: flex;

@@ -3,7 +3,7 @@ import HeroLogo from "./components/Hero-Logo/HeroLogo";
 import GridContainer from "./components/Grid-container/GridContainer";
 import FlexCards from "./components/Flex-cards/FlexCards";
 import FlexLinks from "./components/Flex-links/FlexLinks";
-import AccordionBS from "./components/Accordion-BS/AccordionBS";
+// import AccordionBS from "./components/Accordion-BS/AccordionBS";
 import Footer from "./components/Footer-simple/Footer";
 import facebook from "@assets/facebook.png";
 import youtube from "@assets/youtube.png";
@@ -34,20 +34,21 @@ const App = () => {
         <div className="container">
           <GridContainer />
         </div>
-        <div>
+        <div className="container">
           <FlexCards />
         </div>
 
         <div className="container flow">
           <div className="flex-center text-centered">
             <h2 className="uppercase ff-sans-cond letter-spacing-3">
-              Preguntas frecuentes
+              Estamos para servirte
             </h2>
             <div
               style={{ borderBottom: "1px solid white", width: "100px" }}
             ></div>
           </div>
-          <AccordionBS />
+          {/* <AccordionBS /> */}
+          <p className="fs-600 text-centered">Si tienes cualquier duda puedes mándarnos un mensaje a Whatsapp sin ningún compromiso, o si prefieres mediante nuestas redes sociales.</p>
         </div>
 
         <div id="contact-sect" className="container">

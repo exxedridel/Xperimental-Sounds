@@ -1,6 +1,7 @@
 import React from "react";
 import { FlexCardsStyled } from "./FlexCards.styles";
 import productionIcon from "@assets/production-icon.png";
+import incubadora from "@assets/incubadora-musical.jpg";
 import negocios from "@assets/negocios.jpg";
 import liveBand from "@assets/live-band.jpg";
 import ownBeats from "@assets/beats-personalizados.jpg";
@@ -14,12 +15,29 @@ const FlexCards = () => {
   return (
     <FlexCardsStyled className="box-shadow">
       <article onClick={scrollToContact} className="card">
+        <img className="img-card" src={incubadora} alt="contact card" />
+        <div className="icon-production">
+          <img src={productionIcon} alt="production icon" />
+        </div>
+        <div className="info fs-300">
+          <h3 className="uppercase ff-sans-cond letter-spacing-3">Incubadora Musical</h3>
+          <p>
+            En nuestra incubadora musical te ayudaremos a hacer realidad
+            cualquier idea musical que quieras llevar a cabo. Nuestros
+            compositores te ayudaran en todo el proceso que conlleva crear una
+            canción hasta un álbum. Nosotros no creemos en la música mala o
+            buena, todas las creaciones tienen su lugar y sin importar que tipo
+            de música te interese producir nosotros podemos ayudarte.
+          </p>
+        </div>
+      </article>
+      <article onClick={scrollToContact} className="card">
         <img className="img-card" src={negocios} alt="contact card" />
         <div className="icon-production">
           <img src={productionIcon} alt="production icon" />
         </div>
         <div className="info fs-300">
-          <h3 className="uppercase ff-sans-cond letter-spacing-3">Negocios</h3>
+          <h3 className="uppercase ff-sans-cond letter-spacing-3">Audio Empresarial y de Negocios</h3>
           <p>
             En el área de producción de audio empresarial y de negocios
             llevaremos a tu negocio al siguiente nivel. Ofrecemos música para
@@ -46,11 +64,7 @@ const FlexCards = () => {
         </div>
       </article>
       <article onClick={scrollToContact} className="card">
-        <img
-          className="img-card"
-          src={ownBeats}
-          alt="contact card"
-        />
+        <img className="img-card" src={ownBeats} alt="contact card" />
         <div className="icon-production">
           <img src={productionIcon} alt="production icon" />
         </div>

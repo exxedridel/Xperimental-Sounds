@@ -1,5 +1,6 @@
 import styled from "styled-components";
-import negocios from "../../assets/negocios.jpg";
+import incubadora from "@assets/incubadora-musical.jpg";
+import negocios from "@assets/negocios.jpg";
 import liveBand from "@assets/live-band.jpg";
 import ownBeats from "@assets/beats-personalizados.jpg";
 
@@ -41,7 +42,8 @@ export const FlexLinksStyled = styled.div`
     z-index: 1;
   }
 
-  .live-band {
+  .live-band,
+  .business {
     flex-direction: row-reverse;
     & .div-icon {
       margin-right: 0px;
@@ -71,6 +73,14 @@ export const FlexLinksStyled = styled.div`
       font-size: var(--fs-700);
       text-transform: uppercase;
       letter-spacing: 0.5px;
+    }
+  }
+
+  .incubadora {
+    & .div-span {
+      background-size: cover;
+      background-position: center center;
+      background-image: url(${incubadora});
     }
   }
 
