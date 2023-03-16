@@ -15,7 +15,7 @@ module.exports = {
     extensions: [".js", ".jsx"],
     alias: {
       "@assets": path.resolve(__dirname, "src/assets/"),
-    }
+    },
   },
   module: {
     rules: [
@@ -38,7 +38,14 @@ module.exports = {
       },
       {
         test: /\.(png|svg|jpg|gif|jpeg|webp)$/,
-        type: "asset",
+        use: [
+          {
+            loader: "url-loader",
+            options: {
+              limit: 8192, // or higher value for larger files
+            },
+          },
+        ],
       },
     ],
   },
@@ -53,8 +60,8 @@ module.exports = {
     }),
   ],
   devServer: {
-    static: path.join(__dirname, 'dist'),
+    static: path.join(__dirname, "dist"),
     compress: true,
     port: 3000,
-  }
+  },
 };
