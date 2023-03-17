@@ -14,13 +14,15 @@ const FlexCards = () => {
 
   return (
     <FlexCardsStyled className="box-shadow">
-      <article onClick={scrollToContact} className="card">
+      <article id="incubadora" onClick={scrollToContact} className="card">
         <img className="img-card" src={incubadora} alt="contact card" />
         <div className="icon-production">
           <img src={productionIcon} alt="production icon" />
         </div>
         <div className="info fs-300">
-          <h3 className="uppercase ff-sans-cond letter-spacing-3">Incubadora Musical</h3>
+          <h3 className="uppercase ff-sans-cond letter-spacing-3">
+            Incubadora Musical
+          </h3>
           <p>
             En nuestra incubadora musical te ayudaremos a hacer realidad
             cualquier idea musical que quieras llevar a cabo. Nuestros
@@ -31,13 +33,15 @@ const FlexCards = () => {
           </p>
         </div>
       </article>
-      <article onClick={scrollToContact} className="card">
+      <article id="negocios" onClick={scrollToContact} className="card">
         <img className="img-card" src={negocios} alt="contact card" />
         <div className="icon-production">
           <img src={productionIcon} alt="production icon" />
         </div>
         <div className="info fs-300">
-          <h3 className="uppercase ff-sans-cond letter-spacing-3">Audio Empresarial y de Negocios</h3>
+          <h3 className="uppercase ff-sans-cond letter-spacing-3">
+            Audio Empresarial y de Negocios
+          </h3>
           <p>
             En el área de producción de audio empresarial y de negocios
             llevaremos a tu negocio al siguiente nivel. Ofrecemos música para
@@ -47,23 +51,7 @@ const FlexCards = () => {
           </p>
         </div>
       </article>
-      <article onClick={scrollToContact} className="card">
-        <img className="img-card" src={liveBand} alt="contact card" />
-        <div className="icon-production">
-          <img src={productionIcon} alt="production icon" />
-        </div>
-        <div className="info fs-300">
-          <h3 className="uppercase ff-sans-cond letter-spacing-3">
-            Athoxa Live Band
-          </h3>
-          <p>
-            Si tienes un proyecto musical y te faltan músicos de calidad para
-            llevar tu interpretación al siguiente nivel nuestra Live Band te
-            puede ayudar. Contamos con los mejores músicos de la región.
-          </p>
-        </div>
-      </article>
-      <article onClick={scrollToContact} className="card">
+      <article id="personal-beats" onClick={scrollToContact} className="card">
         <img className="img-card" src={ownBeats} alt="contact card" />
         <div className="icon-production">
           <img src={productionIcon} alt="production icon" />
@@ -77,6 +65,22 @@ const FlexCards = () => {
             YouTube? Nosotros podemos componer una base personalizada para que
             lleves tus presentaciones al máximo nivel de calidad. Contamos con
             instrumentales de todos géneros.
+          </p>
+        </div>
+      </article>
+      <article id="live-band" onClick={scrollToContact} className="card">
+        <img className="img-card" src={liveBand} alt="contact card" />
+        <div className="icon-production">
+          <img src={productionIcon} alt="production icon" />
+        </div>
+        <div className="info fs-300">
+          <h3 className="uppercase ff-sans-cond letter-spacing-3">
+            Athoxa Live Band
+          </h3>
+          <p>
+            Si tienes un proyecto musical y te faltan músicos de calidad para
+            llevar tu interpretación al siguiente nivel nuestra Live Band te
+            puede ayudar. Contamos con los mejores músicos de la región.
           </p>
         </div>
       </article>

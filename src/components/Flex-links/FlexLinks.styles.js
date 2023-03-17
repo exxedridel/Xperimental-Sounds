@@ -29,7 +29,7 @@ export const FlexLinksStyled = styled.div`
   .link:focus {
     text-decoration: underline;
     & .div-icon {
-      background-color: hsl(var(--neon-blue) / 0.8);
+      background-color: hsl(var(--brand-yellow) / 0.7);
     }
   }
 

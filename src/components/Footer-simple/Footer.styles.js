@@ -11,6 +11,7 @@ export const FooterStyled = styled.footer`
   }
 
  & a {
+  font-size: 13px;
   transition: all 0.3s ease;
   color: hsl(var(--white) / 0.6);
  }

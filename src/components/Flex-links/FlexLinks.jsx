@@ -5,7 +5,7 @@ import productionIcon from "../../assets/production-icon.png";
 const FlexLinks = () => {
   return (
     <FlexLinksStyled>
-      <a className="incubadora link">
+      <a href="#incubadora" className="incubadora link">
         <div className="div-icon">
           <img src={productionIcon} alt="icon" />
         </div>
@@ -13,7 +13,7 @@ const FlexLinks = () => {
           <span>Incubadora Musical</span>
         </div>
       </a>
-      <a className="business link">
+      <a href="#negocios" className="business link">
         <div className="div-icon">
           <img src={productionIcon} alt="icon" />
         </div>
@@ -21,7 +21,7 @@ const FlexLinks = () => {
           <span>Audio Empresarial y de Negocios</span>
         </div>
       </a>
-      <a className="own-beats link">
+      <a href="#personal-beats" className="own-beats link">
         <div className="div-icon">
           <img src={productionIcon} alt="icon" />
         </div>
@@ -29,7 +29,7 @@ const FlexLinks = () => {
           <span>Bases musicales personalizadas</span>
         </div>
       </a>
-      <a className="live-band link">
+      <a href="#live-band" className="live-band link">
         <div className="div-icon">
           <img src={productionIcon} alt="icon" />
         </div>

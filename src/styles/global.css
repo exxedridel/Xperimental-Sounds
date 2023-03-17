@@ -241,9 +241,10 @@ select {
 @media (min-width: 58em) {
   .opaque-img {
     transition: all 0.3s ease;
-    opacity: 0.85;
-  }
-  .opaque-img:hover {
     opacity: 1;
+  }
+  .opaque-img:hover,
+  .opaque-img:focus {
+    opacity: 0.7;
   }
 }
