@@ -8,7 +8,7 @@ export const FlexCardsStyled = styled.section`
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 4rem;
+  gap: 3rem;
 
   .card {
     flex-basis: 330px;
@@ -64,5 +64,17 @@ export const FlexCardsStyled = styled.section`
     line-height: 1.3;
     margin-block: 3px;
     font-size: 16px;
+  }
+
+  /* @media (min-width: 35em) {
+    & {
+      gap: 4.5rem;
+    }
+  } */
+
+  @media (min-width: 55em) {
+    & {
+      gap: 6rem;
+    }
   }
 `;
