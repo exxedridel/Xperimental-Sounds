@@ -1,11 +1,20 @@
 #main-content {
-  border: 9px solid white;
+  border: 9px solid hsl(var(--white));
   padding-block: 4rem;
-  background-color: hsl(var(--black) / 0.3);
+  background-color: hsl(var(--black) / 0.15);
+  box-shadow:0px 0px 20px hsl(var(--black) /0.7);
+}
+#main-content > h1 {
+  font-family: var(--ff-theseasons-lt);
+}
+
+.subtitle {
+  font-family: var(--ff-theseasons-bd);
+  text-transform: uppercase;
 }
 
 .hr-div {
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid hsl(var(--white));
   width: 125px;
 }
 
@@ -14,7 +23,7 @@
 }
 
 .call-to-contact {
-  border: 5px solid white;
+  border: 5px solid hsl(var(--white));
   padding: 2rem;
   background-color: hsl(var(--black) / 0.3);
 }

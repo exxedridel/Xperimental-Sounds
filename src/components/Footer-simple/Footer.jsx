@@ -7,7 +7,7 @@ const Footer = () => {
       <p>
         © Copyright Xperimental Sounds 2023. Todos los derechos reservados.
         <br />
-        <a href="\" className="setapps">Setapps™ Originals</a>
+        <a href="https://setapps.co" className="setapps">Set<b>apps</b>™ Originals</a>
       </p>
     </FooterStyled>
   );

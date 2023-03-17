@@ -20,7 +20,7 @@ const FlexCards = () => {
           <img src={productionIcon} alt="production icon" />
         </div>
         <div className="info fs-300">
-          <h3 className="uppercase ff-sans-cond letter-spacing-3">
+          <h3 className="letter-spacing-3">
             Incubadora Musical
           </h3>
           <p>
@@ -39,7 +39,7 @@ const FlexCards = () => {
           <img src={productionIcon} alt="production icon" />
         </div>
         <div className="info fs-300">
-          <h3 className="uppercase ff-sans-cond letter-spacing-3">
+          <h3 className="letter-spacing-3">
             Audio Empresarial y de Negocios
           </h3>
           <p>
@@ -57,8 +57,8 @@ const FlexCards = () => {
           <img src={productionIcon} alt="production icon" />
         </div>
         <div className="info fs-300">
-          <h3 className="uppercase ff-sans-cond letter-spacing-3">
-            Bases musicales personalizadas (beats)
+          <h3 className="letter-spacing-3">
+            Bases musicales personalizadas, beats
           </h3>
           <p>
             ¿Estas harto de practicar tus con música/beats de uso compartido en
@@ -74,7 +74,7 @@ const FlexCards = () => {
           <img src={productionIcon} alt="production icon" />
         </div>
         <div className="info fs-300">
-          <h3 className="uppercase ff-sans-cond letter-spacing-3">
+          <h3 className="letter-spacing-3">
             Athoxa Live Band
           </h3>
           <p>

@@ -51,6 +51,9 @@ export const FlexCardsStyled = styled.section`
   }
 
   .info h3 {
+    font-family: var(--ff-theseasons-reg);
+    font-weight: 600;
+    text-transform: uppercase;
     text-align: center;
     color: crimson;
     font-size: 20px;
@@ -60,5 +63,6 @@ export const FlexCardsStyled = styled.section`
   .info p {
     line-height: 1.3;
     margin-block: 3px;
+    font-size: 16px;
   }
 `;

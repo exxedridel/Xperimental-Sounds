@@ -30,13 +30,13 @@ export const HeroLogoStyled = styled.section`
   .overlaped img {
     align-self: center;
     /* width: calc(300px + 5vmin); */
-    width: clamp(260px, 35vw, 340px);
+    width: clamp(220px, 35vw, 300px);
     /* width: clamp(230px, 35vw, 340px); */
     /* padding: 0rem; */
     aspect-ratio: 1;
     border-radius: 50%;
-    border: 10px solid hsl(var(--white) / 0.75);
-    /* box-shadow: inset 0px 0px 100px hsl(var(--white) /0.9); */
+    /* border: 4px solid hsl(var(--black) / 1); */
+    box-shadow:3px 3px 20px hsl(var(--black) /0.7);
   }
 
   .brand-name {
@@ -47,10 +47,11 @@ export const HeroLogoStyled = styled.section`
     line-height: 1.1;
     /* line-height: 1.7; */
     margin: 7.5px;
-    font-family: "TheSeasons", sans-serif;
+    font-family: var(--ff-theseasons-lt);
     font-size: calc(2.8rem + 2vmin);
-    font-weight: 600;
+    font-weight: 400;
     color: hsl(var(--black));
+    text-shadow: 4px 4px hsl(var(--black) /0.27);
   }
   .brand-name span {
     color: hsl(var(--black));
@@ -69,7 +70,7 @@ export const HeroLogoStyled = styled.section`
   // * Tablet & Landscape *
   @media (min-width: 35em) {
     .background {
-      height: 500px;
+      height: 600px;
     }
 
     .brand-name {

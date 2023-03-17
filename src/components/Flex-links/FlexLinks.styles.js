@@ -5,7 +5,7 @@ import liveBand from "@assets/live-band.jpg";
 import ownBeats from "@assets/beats-personalizados.jpg";
 
 export const FlexLinksStyled = styled.div`
-  background-color: hsl(var(--black) / 0.25);
+  background-color: hsl(var(--black) / 0.15);
   border-radius: 6px;
   display: flex;
   flex-direction: column;
@@ -78,8 +78,9 @@ export const FlexLinksStyled = styled.div`
     text-align: center;
     border-radius: 0 6px 6px 0;
     & span {
-      font-family: var(--ff-sans-cond);
+      font-family: var(--ff-theseasons-reg);
       font-size: var(--fs-700);
+      font-weight: 600;
       text-transform: uppercase;
       text-shadow: 1px 1px 3px black;
       letter-spacing: 1px;

@@ -23,9 +23,9 @@ const App = () => {
           id="main-content"
           className="container flex-center-small text-centered"
         >
-          <h1 className="uppercase fs-900">Casa Productora</h1>
+          <h1 className="fs-900">Casa Productora</h1>
           <div className="hr-div"></div>
-          <h1 className="uppercase fs-900">Incubadora musical</h1>
+          <h1 className="fs-900">Incubadora Musical</h1>
           {/* <p className="uppercase text-accent ff-sans-cond letter-spacing-3">
             León Gto, México
           </p> */}
@@ -43,8 +43,8 @@ const App = () => {
 
         <div className="container flow">
           <div className="flex-center text-centered">
-            <h2 className="uppercase ff-sans-cond letter-spacing-3">
-              Estamos para servirte
+            <h2 className="subtitle letter-spacing-3">
+              Ubicados en GTO, MX.
             </h2>
             <div className="hr-div"></div>
           </div>
@@ -58,7 +58,7 @@ const App = () => {
 
         <div id="contact-sect" className="container">
           <div className="flex-center text-centered">
-            <h2 className="uppercase ff-sans-cond letter-spacing-3">
+            <h2 className="subtitle letter-spacing-3">
               Contáctanos
             </h2>
             <div className="hr-div hr-contact"></div>

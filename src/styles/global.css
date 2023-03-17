@@ -3,8 +3,20 @@
 /*----------------------------------------------*/
 
 @font-face {
-  font-family: 'TheSeasons';
+  font-family: 'TheSeasons-reg';
   src: url('../assets/fonts/theseasons-reg.otf') format('opentype');
+}
+@font-face {
+  font-family: 'TheSeasons-lt';
+  src: url('../assets/fonts/theseasons-lt.otf') format('opentype');
+}
+@font-face {
+  font-family: 'TheSeasons-it';
+  src: url('../assets/fonts/theseasons-it.otf') format('opentype');
+}
+@font-face {
+  font-family: 'TheSeasons-bd';
+  src: url('../assets/fonts/theseasons-bd.otf') format('opentype');
 }
 
 :root {
@@ -21,6 +33,10 @@
   --ff-serif: "Roboto", sans-serif;
   --ff-sans-cond: "Roboto Condensed", sans-serif;
   --ff-sans-display: "Dela Gothic One", cursive;
+  --ff-theseasons-reg: "TheSeasons-reg", sans-serif;
+  --ff-theseasons-lt: "TheSeasons-lt", sans-serif;
+  --ff-theseasons-it: "TheSeasons-it", sans-serif;
+  --ff-theseasons-bd: "TheSeasons-bd", sans-serif;
 
   /* font-sizes */
   /* clamp(2.25rem, 4.5vw + 1rem, 6.5rem); */

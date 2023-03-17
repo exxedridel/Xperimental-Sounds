@@ -26,7 +26,7 @@ const FlexLinks = () => {
           <img src={productionIcon} alt="icon" />
         </div>
         <div className="div-span">
-          <span>Bases musicales personalizadas</span>
+          <span>Bases Musicales Personalizadas</span>
         </div>
       </a>
       <a href="#live-band" className="live-band link">
