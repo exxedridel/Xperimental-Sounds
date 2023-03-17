@@ -17,13 +17,6 @@ const GridContainer = () => {
           negocios adaptándonos a cualquier tipo de negocio y tamaño de tu
           proyecto.
         </p>
-        <br />
-        {/* <ul>
-          <li>Lorem ipsum dolor sit amet.</li>
-          <li>Lorem, ipsum.</li>
-          <li>Lorem, ipsum dolor.</li>
-          <li>Lorem um...</li>
-        </ul> */}
       </article>
       <img src={incubadoraMusical} alt="performing artist" />
     </GridContainerStyled>

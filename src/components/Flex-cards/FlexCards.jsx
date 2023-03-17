@@ -1,7 +1,7 @@
 import React from "react";
 import { FlexCardsStyled } from "./FlexCards.styles";
 import productionIcon from "@assets/production-icon.png";
-import incubadora from "@assets/incubadora-musical.jpg";
+import incubadora from "@assets/incubadora.jpg";
 import negocios from "@assets/negocios.jpg";
 import liveBand from "@assets/live-band.jpg";
 import ownBeats from "@assets/beats-personalizados.jpg";

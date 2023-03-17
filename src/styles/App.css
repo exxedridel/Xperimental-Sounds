@@ -1,8 +1,29 @@
+#main-content {
+  border: 9px solid white;
+  padding-block: 4rem;
+  background-color: hsl(var(--black) / 0.3);
+}
+
 .hr-div {
-   border-bottom: 1px solid white;
-   width: 125px;
+  border-bottom: 1px solid white;
+  width: 125px;
 }
 
 .hr-contact {
-   margin-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
+.call-to-contact {
+  border: 5px solid white;
+  padding: 2rem;
+  background-color: hsl(var(--black) / 0.3);
+}
+
+@media (min-width: 35em) {
+  .hr-div {
+    width: 200px;
+  }
+  .call-to-contact {
+    padding: 4rem;
+  }
 }

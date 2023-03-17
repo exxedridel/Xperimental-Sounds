@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import incubadora from "@assets/incubadora-musical.jpg";
+import incubadora from "@assets/incubadora.jpg";
 import negocios from "@assets/negocios.jpg";
 import liveBand from "@assets/live-band.jpg";
 import ownBeats from "@assets/beats-personalizados.jpg";
@@ -9,7 +9,8 @@ export const FlexLinksStyled = styled.div`
   border-radius: 6px;
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 1.5rem;
+  padding: 10px;
 
   .link {
     cursor: pointer;
@@ -17,11 +18,19 @@ export const FlexLinksStyled = styled.div`
     color: white;
     background-color: hsl(var(--neon-blue) / 0.5);
     height: 150px;
-    margin: 10px;
+    /* margin: 10px; */
     border-radius: 6px;
     display: flex;
     flex-direction: row;
     align-items: center;
+    /* justify-content: space-between; */
+  }
+  .link:hover,
+  .link:focus {
+    text-decoration: underline;
+    & .div-icon {
+      background-color: hsl(var(--neon-blue) / 0.8);
+    }
   }
 
   .div-icon {
@@ -72,7 +81,9 @@ export const FlexLinksStyled = styled.div`
       font-family: var(--ff-sans-cond);
       font-size: var(--fs-700);
       text-transform: uppercase;
-      letter-spacing: 0.5px;
+      text-shadow: 1px 1px 3px black;
+      letter-spacing: 1px;
+      max-width: 19ch;
     }
   }
 
@@ -103,6 +114,39 @@ export const FlexLinksStyled = styled.div`
       background-size: cover;
       /* background-position: bottom center; */
       background-image: url(${ownBeats});
+    }
+  }
+
+  @media (min-width: 35em) {
+    & {
+      padding: 1.5rem;
+    }
+  }
+
+  @media (min-width: 45em) {
+    .div-icon {
+      height: 120px;
+      width: 120px;
+      position: relative;
+      left: 20px;
+      & img {
+        width: 76px;
+        height: 76px;
+      }
+    }
+
+    .live-band,
+    .business {
+      & .div-icon {
+        left: -20px;
+      }
+    }
+
+    .div-span {
+      & span {
+        letter-spacing: 2px;
+        max-width: 50ch;
+      }
     }
   }
 `;

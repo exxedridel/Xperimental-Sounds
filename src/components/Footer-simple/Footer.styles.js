@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const FooterStyled = styled.footer`
-  background-color: hsl(var(--black) / 0.5);
+  background-color: hsl(var(--black) / 0.4);
   padding: 4rem 1rem;
   text-align: center;
 

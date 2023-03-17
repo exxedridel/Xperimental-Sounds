@@ -19,7 +19,10 @@ const App = () => {
     <>
       <div className="flow">
         <HeroLogo />
-        <div id="main-content" className="container flex-center-small text-centered">
+        <div
+          id="main-content"
+          className="container flex-center-small text-centered"
+        >
           <h1 className="uppercase fs-900">Casa Productora</h1>
           <div className="hr-div"></div>
           <h1 className="uppercase fs-900">Incubadora musical</h1>
@@ -43,12 +46,14 @@ const App = () => {
             <h2 className="uppercase ff-sans-cond letter-spacing-3">
               Estamos para servirte
             </h2>
-            <div
-              style={{ borderBottom: "1px solid white", width: "100px" }}
-            ></div>
+            <div className="hr-div"></div>
           </div>
           {/* <AccordionBS /> */}
-          <p className="fs-600 text-centered">Si tienes cualquier duda puedes mándarnos un mensaje a Whatsapp sin ningún compromiso, o si prefieres mediante nuestas redes sociales.</p>
+          <p className="call-to-contact fs-600 text-centered">
+            Si tienes cualquier duda puedes mándarnos un mensaje a nuestro
+            Whatsapp sin ningún compromiso, o si prefieres mediante nuestas
+            redes sociales.
+          </p>
         </div>
 
         <div id="contact-sect" className="container">
@@ -56,10 +61,7 @@ const App = () => {
             <h2 className="uppercase ff-sans-cond letter-spacing-3">
               Contáctanos
             </h2>
-            <div
-              className="hr-contact"
-              style={{ borderBottom: "1px solid white", width: "100px" }}
-            ></div>
+            <div className="hr-div hr-contact"></div>
             <a href="/">
               <img src={whatsapp} className="opaque-img" alt="whatsapp logo" />
             </a>
