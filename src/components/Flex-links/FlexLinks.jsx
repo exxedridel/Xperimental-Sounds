@@ -1,13 +1,16 @@
 import React from "react";
 import { FlexLinksStyled } from "./FlexLinks.styles";
-import productionIcon from "../../assets/production-icon.png";
+import incubatorIcon from "@assets/incubator-icon.png";
+import productionIcon from "@assets/business-icon.png";
+import liveBandIcon from "@assets/live-band-icon.png";
+import personalBeatsIcon from "@assets/production-icon.png";
 
 const FlexLinks = () => {
   return (
     <FlexLinksStyled>
       <a href="#incubadora" className="incubadora link">
         <div className="div-icon">
-          <img src={productionIcon} alt="icon" />
+          <img src={incubatorIcon} alt="icon" />
         </div>
         <div className="div-span">
           <span>Incubadora Musical</span>
@@ -23,7 +26,7 @@ const FlexLinks = () => {
       </a>
       <a href="#personal-beats" className="own-beats link">
         <div className="div-icon">
-          <img src={productionIcon} alt="icon" />
+          <img src={personalBeatsIcon} alt="icon" />
         </div>
         <div className="div-span">
           <span>Bases Musicales Personalizadas</span>
@@ -31,7 +34,7 @@ const FlexLinks = () => {
       </a>
       <a href="#live-band" className="live-band link">
         <div className="div-icon">
-          <img src={productionIcon} alt="icon" />
+          <img src={liveBandIcon} alt="icon" />
         </div>
         <div className="div-span">
           <span>Athoxa Live Band</span>

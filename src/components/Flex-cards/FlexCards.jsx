@@ -1,6 +1,9 @@
 import React from "react";
 import { FlexCardsStyled } from "./FlexCards.styles";
-import productionIcon from "@assets/production-icon.png";
+import incubatorIcon from "@assets/incubator-icon.png";
+import productionIcon from "@assets/business-icon.png";
+import liveBandIcon from "@assets/live-band-icon.png";
+import personalBeatsIcon from "@assets/production-icon.png";
 import incubadora from "@assets/incubadora.jpg";
 import negocios from "@assets/negocios.jpg";
 import liveBand from "@assets/live-band.jpg";
@@ -17,7 +20,7 @@ const FlexCards = () => {
       <article id="incubadora" onClick={scrollToContact} className="card">
         <img className="img-card" src={incubadora} alt="contact card" />
         <div className="icon-production">
-          <img src={productionIcon} alt="production icon" />
+          <img src={incubatorIcon} alt="production icon" />
         </div>
         <div className="info fs-300">
           <h3 className="letter-spacing-3">
@@ -54,7 +57,7 @@ const FlexCards = () => {
       <article id="personal-beats" onClick={scrollToContact} className="card">
         <img className="img-card" src={ownBeats} alt="contact card" />
         <div className="icon-production">
-          <img src={productionIcon} alt="production icon" />
+          <img src={personalBeatsIcon} alt="production icon" />
         </div>
         <div className="info fs-300">
           <h3 className="letter-spacing-3">
@@ -71,7 +74,7 @@ const FlexCards = () => {
       <article id="live-band" onClick={scrollToContact} className="card">
         <img className="img-card" src={liveBand} alt="contact card" />
         <div className="icon-production">
-          <img src={productionIcon} alt="production icon" />
+          <img src={liveBandIcon} alt="production icon" />
         </div>
         <div className="info fs-300">
           <h3 className="letter-spacing-3">
