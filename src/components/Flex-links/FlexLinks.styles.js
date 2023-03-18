@@ -78,7 +78,7 @@ export const FlexLinksStyled = styled.div`
     text-align: center;
     border-radius: 0 6px 6px 0;
     & span {
-      font-family: var(--ff-theseasons-reg);
+      font-family: var(--ff-sans-cond);
       font-size: var(--fs-700);
       font-weight: 600;
       text-transform: uppercase;

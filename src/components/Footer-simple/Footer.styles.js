@@ -20,7 +20,7 @@ export const FooterStyled = styled.footer`
     text-decoration: none;
   }
   & a:hover {
-    color: hsl(var(--white) / 1);
+    color: hsl(var(--white) / 0.65);
     text-decoration: underline;
   }
 `;
