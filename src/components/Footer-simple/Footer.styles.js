@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const FooterStyled = styled.footer`
   @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
 
-  background-color: hsl(var(--black) / 0.4);
+  background-color: hsl(var(--black) / 0.7);
   padding: 4rem 1rem;
   text-align: center;
 

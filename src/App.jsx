@@ -19,19 +19,19 @@ const App = () => {
     <>
       <div className="flow">
         <HeroLogo />
-        <div id="main-content" className="container flex-center-small">
+        <a id="main-content" href="#about" className="container flex-center-small">
           <h1 className="fs-900">Casa Productora</h1>
           <div className="hr-div"></div>
           <h1 className="fs-900">Incubadora Musical</h1>
           <p className="uppercase text-accent ff-sans-cond letter-spacing-3">
-            By Pablo palomares
+            Por Pablo Palomares
           </p>
-        </div>
+        </a>
         <div className="container">
           <FlexLinks />
         </div>
 
-        <div className="container">
+        <div id="about" className="container">
           <GridContainer />
         </div>
         <div className="container">

@@ -10,7 +10,7 @@ export const HeroLogoStyled = styled.section`
 
   .background {
     width: 100%;
-    height: 81.5vh;
+    height: 75vh;
     background-color: hsl(var(--brand-yellow));
     background-size: cover;
     object-fit: cover;
@@ -30,7 +30,7 @@ export const HeroLogoStyled = styled.section`
   .overlaped img {
     align-self: center;
     /* width: calc(300px + 5vmin); */
-    width: clamp(220px, 35vw, 300px);
+    width: clamp(200px, 35vw, 270px);
     /* width: clamp(230px, 35vw, 340px); */
     /* padding: 0rem; */
     aspect-ratio: 1;
@@ -47,8 +47,9 @@ export const HeroLogoStyled = styled.section`
     line-height: 1.1;
     /* line-height: 1.7; */
     margin: 7.5px;
-    font-family: var(--ff-theseasons-lt);
-    font-size: calc(2.8rem + 2vmin);
+    font-family: var(--ff-theseasons-reg);
+    /* font-size: calc(2.8rem + 2vmin); */
+    font-size: var(--fs-900);
     font-weight: 400;
     color: hsl(var(--black));
     text-shadow: 4px 4px hsl(var(--black) /0.27);
@@ -69,16 +70,29 @@ export const HeroLogoStyled = styled.section`
 
   // * Tablet & Landscape *
   @media (min-width: 35em) {
+    .overlaped {
+    flex-direction: row;
+    margin-inline: 0rem;
+    gap:  1rem;
+  }
+
     .background {
-      height: 600px;
+      height: 450px;
     }
 
     .brand-name {
       letter-spacing: 3px;
+      text-align: start;
     }
   }
   // * Desktop *
   @media (min-width: 58em) {
+    .overlaped {
+    flex-direction: row;
+    margin-inline: 0rem;
+    gap:  3rem;
+    
+  }
     .background {
       height: 85vh;
     }

@@ -22,7 +22,7 @@ export const FlexCardsStyled = styled.section`
     cursor: pointer;
   }
   .card:hover {
-    transform: translateY(-5%);
+    transform: translateY(-2.5%);
     box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 0.6);
   }
 
@@ -76,5 +76,9 @@ export const FlexCardsStyled = styled.section`
     & {
       gap: 6rem;
     }
+
+    .card:hover {
+    transform: translateY(-5%);
+  }
   }
 `;

@@ -18,7 +18,6 @@ export const FlexLinksStyled = styled.div`
     color: white;
     background-color: hsl(var(--neon-blue) / 0.2);
     height: 150px;
-    /* margin: 10px; */
     border-radius: 6px;
     display: flex;
     flex-direction: row;
@@ -29,7 +28,7 @@ export const FlexLinksStyled = styled.div`
   .link:focus {
     text-decoration: underline;
     & .div-icon {
-      background-color: hsl(var(--brand-yellow) / 0.7);
+      background-color: hsl(var(--brand-blue) / 0.75);
     }
   }
 

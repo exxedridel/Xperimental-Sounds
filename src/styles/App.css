@@ -1,4 +1,6 @@
 #main-content {
+  text-decoration: none;
+  color: var(--white);
   border: 9px solid hsl(var(--white));
   padding-block: 4rem;
   background-color: hsl(var(--black) / 0.4);
