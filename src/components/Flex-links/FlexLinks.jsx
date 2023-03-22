@@ -1,9 +1,10 @@
 import React from "react";
 import { FlexLinksStyled } from "./FlexLinks.styles";
-import incubatorIcon from "@assets/incubator-icon.png";
-import productionIcon from "@assets/business-icon.png";
-import liveBandIcon from "@assets/live-band-icon.png";
-import personalBeatsIcon from "@assets/production-icon.png";
+import logoIcon from "@assets/xperimental-sounds-logo.png";
+import incubatorIcon from "@assets/cd.png";
+import productionIcon from "@assets/record.png";
+import liveBandIcon from "@assets/live.png";
+import personalBeatsIcon from "@assets/production.png";
 
 const FlexLinks = () => {
   return (

@@ -19,16 +19,13 @@ const App = () => {
     <>
       <div className="flow">
         <HeroLogo />
-        <div
-          id="main-content"
-          className="container flex-center-small text-centered"
-        >
+        <div id="main-content" className="container flex-center-small">
           <h1 className="fs-900">Casa Productora</h1>
           <div className="hr-div"></div>
           <h1 className="fs-900">Incubadora Musical</h1>
-          {/* <p className="uppercase text-accent ff-sans-cond letter-spacing-3">
-            León Gto, México
-          </p> */}
+          <p className="uppercase text-accent ff-sans-cond letter-spacing-3">
+            By Pablo palomares
+          </p>
         </div>
         <div className="container">
           <FlexLinks />
@@ -43,14 +40,12 @@ const App = () => {
 
         <div className="container flow">
           <div className="flex-center text-centered">
-            <h2 className="subtitle letter-spacing-3">
-              Ubicados en GTO, MX.
-            </h2>
+            <h2 className="subtitle letter-spacing-3">Ubicados en GTO, MX.</h2>
             <div className="hr-div"></div>
           </div>
           {/* <AccordionBS /> */}
           <p className="call-to-contact fs-600 text-centered">
-            Si tienes cualquier duda puedes mándarnos un mensaje a nuestro
+            Si tienes cualquier duda puedes mandarnos un mensaje a nuestro
             Whatsapp sin ningún compromiso, o si prefieres mediante nuestas
             redes sociales.
           </p>
@@ -58,9 +53,7 @@ const App = () => {
 
         <div id="contact-sect" className="container">
           <div className="flex-center text-centered">
-            <h2 className="subtitle letter-spacing-3">
-              Contáctanos
-            </h2>
+            <h2 className="subtitle letter-spacing-3">Contáctanos</h2>
             <div className="hr-div hr-contact"></div>
             <a href="/">
               <img src={whatsapp} className="opaque-img" alt="whatsapp logo" />

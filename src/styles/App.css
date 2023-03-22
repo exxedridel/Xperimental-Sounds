@@ -1,11 +1,13 @@
 #main-content {
   border: 9px solid hsl(var(--white));
   padding-block: 4rem;
-  background-color: hsl(var(--black) / 0.15);
+  background-color: hsl(var(--black) / 0.4);
   box-shadow:0px 0px 20px hsl(var(--black) /0.7);
 }
 #main-content > h1 {
-  font-family: var(--ff-theseasons-lt);
+  text-align: center;
+  text-transform: uppercase;
+  font-family: var(--ff-theseasons-bd);
 }
 
 .subtitle {

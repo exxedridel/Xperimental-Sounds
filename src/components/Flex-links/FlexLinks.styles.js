@@ -16,7 +16,7 @@ export const FlexLinksStyled = styled.div`
     cursor: pointer;
     text-decoration: none;
     color: white;
-    background-color: hsl(var(--neon-blue) / 0.5);
+    background-color: hsl(var(--neon-blue) / 0.2);
     height: 150px;
     /* margin: 10px; */
     border-radius: 6px;
@@ -64,8 +64,8 @@ export const FlexLinksStyled = styled.div`
   }
 
   .div-icon img {
-    width: 70px;
-    height: 70px;
+    min-width: 48px;
+    height: 48px;
     object-fit: cover;
   }
 
