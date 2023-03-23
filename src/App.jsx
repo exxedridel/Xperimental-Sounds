@@ -1,5 +1,5 @@
 import React from "react";
-import Flip from 'react-reveal/Flip';
+import { Fade, Flip } from "react-awesome-reveal";
 import HeroLogo from "./components/Hero-Logo/HeroLogo";
 import GridContainer from "./components/Grid-container/GridContainer";
 import FlexCards from "./components/Flex-cards/FlexCards";
@@ -61,7 +61,7 @@ const App = () => {
             <h2 className="subtitle letter-spacing-3">Contáctanos</h2>
             <div className="hr-div hr-contact"></div>
             <a href="/">
-              <Flip>
+              <Flip duration="2000">
                 <img
                   src={whatsapp}
                   className="opaque-img"
