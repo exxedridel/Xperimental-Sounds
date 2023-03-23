@@ -1,4 +1,5 @@
 import React from "react";
+import { Fade } from "react-awesome-reveal";
 import HeroLogo from "./components/Hero-Logo/HeroLogo";
 import GridContainer from "./components/Grid-container/GridContainer";
 import FlexCards from "./components/Flex-cards/FlexCards";
@@ -19,7 +20,11 @@ const App = () => {
     <>
       <div className="flow">
         <HeroLogo />
-        <a id="main-content" href="#about" className="container flex-center-small">
+        <a
+          id="main-content"
+          href="#about"
+          className="container flex-center-small"
+        >
           <h1 className="fs-900">Casa Productora</h1>
           <div className="hr-div"></div>
           <h1 className="fs-900">Incubadora Musical</h1>
@@ -56,7 +61,13 @@ const App = () => {
             <h2 className="subtitle letter-spacing-3">Contáctanos</h2>
             <div className="hr-div hr-contact"></div>
             <a href="/">
-              <img src={whatsapp} className="opaque-img" alt="whatsapp logo" />
+              <Fade duration="2000">
+                <img
+                  src={whatsapp}
+                  className="opaque-img"
+                  alt="whatsapp logo"
+                />
+              </Fade>
             </a>
             <p>Síguenos en nuestras redes:</p>
             <div className="flex">

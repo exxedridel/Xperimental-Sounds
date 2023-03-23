@@ -1,6 +1,6 @@
 import React from "react";
 import { HeroLogoStyled } from "./HeroLogo.styles";
-import beatsGif from "@assets/fondo-xs.svg";
+import Background from "@assets/bg-xs.svg";
 import Logo from "@assets/xperimental-sounds-logo.png";
 
 const HeroLogo = () => {
@@ -11,7 +11,7 @@ const HeroLogo = () => {
 
   return (
     <HeroLogoStyled>
-      <img className="background" src={beatsGif} alt="beats yellow" />
+      <img className="background" src={Background} alt="beats yellow" />
       <div onClick={scrollToContent} className="overlaped">
         <img className="logo" src={Logo} alt="Logo Xperimental Sounds" />
         <p className="brand-name">Xperimental <span>Sounds</span></p>

@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import incubadoraMusical from "@assets/incubadora-musical.jpg";
 
 export const GridContainerStyled = styled.main`
   & h2 {

@@ -1,5 +1,5 @@
 import React from "react";
-import { GridContainerStyled } from "./GridContainer.styles";
+import { GridContainerStyled } from "./GridContainer.styles"
 import incubadoraMusical from "@assets/incubadora-musical.jpg";
 
 const GridContainer = () => {
