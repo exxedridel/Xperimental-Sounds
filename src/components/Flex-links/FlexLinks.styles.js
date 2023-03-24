@@ -5,7 +5,7 @@ import liveBand from "@assets/live-band.jpg";
 import ownBeats from "@assets/beats-personalizados.jpg";
 
 export const FlexLinksStyled = styled.div`
-  background-color: hsl(var(--black) / 0.15);
+  /* background-color: hsl(var(--black) / 0.15); */
   border-radius: 6px;
   display: flex;
   flex-direction: column;
@@ -16,19 +16,19 @@ export const FlexLinksStyled = styled.div`
     cursor: pointer;
     text-decoration: none;
     color: white;
-    background-color: hsl(var(--neon-blue) / 0.2);
+    background-color: hsl(var(--neon-blue) / 0.16);
     height: 150px;
     border-radius: 6px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    /* justify-content: space-between; */
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
   }
   .link:hover,
   .link:focus {
     text-decoration: underline;
     & .div-icon {
-      background-color: hsl(var(--brand-blue) / 0.75);
+      background-color: hsl(var(--brand-yellow) / 0.8);
     }
   }
 
@@ -63,8 +63,8 @@ export const FlexLinksStyled = styled.div`
   }
 
   .div-icon img {
-    min-width: 48px;
-    height: 48px;
+    min-width: 53px;
+    height: 53px;
     object-fit: cover;
   }
 

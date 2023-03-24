@@ -1,9 +1,9 @@
 import React from "react";
 import { FlexCardsStyled } from "./FlexCards.styles";
-import incubatorIcon from "@assets/incubator-icon.png";
-import productionIcon from "@assets/business-icon.png";
-import liveBandIcon from "@assets/live-band-icon.png";
-import personalBeatsIcon from "@assets/production-icon.png";
+import incubatorIcon from "@assets/cd.png";
+import productionIcon from "@assets/record.png";
+import liveBandIcon from "@assets/live.png";
+import personalBeatsIcon from "@assets/production.png";
 import incubadora from "@assets/incubadora.jpg";
 import negocios from "@assets/negocios.jpg";
 import liveBand from "@assets/live-band.jpg";
@@ -23,7 +23,7 @@ const FlexCards = () => {
           <img src={incubatorIcon} alt="production icon" />
         </div>
         <div className="info fs-300">
-          <h3 className="letter-spacing-3">
+          <h3>
             Incubadora Musical
           </h3>
           <p>
@@ -42,7 +42,7 @@ const FlexCards = () => {
           <img src={productionIcon} alt="production icon" />
         </div>
         <div className="info fs-300">
-          <h3 className="letter-spacing-3">
+          <h3>
             Audio Empresarial y de Negocios
           </h3>
           <p>
@@ -60,7 +60,7 @@ const FlexCards = () => {
           <img src={personalBeatsIcon} alt="production icon" />
         </div>
         <div className="info fs-300">
-          <h3 className="letter-spacing-3">
+          <h3>
             Bases musicales personalizadas, beats
           </h3>
           <p>
@@ -77,7 +77,7 @@ const FlexCards = () => {
           <img src={liveBandIcon} alt="production icon" />
         </div>
         <div className="info fs-300">
-          <h3 className="letter-spacing-3">
+          <h3>
             Athoxa Live Band
           </h3>
           <p>

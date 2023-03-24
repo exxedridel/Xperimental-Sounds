@@ -1,6 +1,5 @@
 import React from "react";
 import { FlexLinksStyled } from "./FlexLinks.styles";
-import logoIcon from "@assets/xperimental-sounds-logo.png";
 import incubatorIcon from "@assets/cd.png";
 import productionIcon from "@assets/record.png";
 import liveBandIcon from "@assets/live.png";

@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import incubadoraMusical from "@assets/incubadora-musical.jpg";
 
 export const GridContainerStyled = styled.main`
   & h2 {
@@ -25,7 +24,7 @@ export const GridContainerStyled = styled.main`
     margin-top: 2rem;
     margin-inline: auto;
     border-radius: 3px;
-    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.50);
   }
 
   @media (min-width: 58em) {

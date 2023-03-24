@@ -16,7 +16,7 @@ export const HeroLogoStyled = styled.section`
     object-fit: cover;
     opacity: 1;
     box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
-    /* padding-block: 0.5rem; */
+    padding-block: 0.2rem;
   }
 
   .overlaped {
@@ -29,14 +29,10 @@ export const HeroLogoStyled = styled.section`
 
   .overlaped img {
     align-self: center;
-    /* width: calc(300px + 5vmin); */
-    width: clamp(200px, 35vw, 270px);
-    /* width: clamp(230px, 35vw, 340px); */
-    /* padding: 0rem; */
+    width: 200px;
     aspect-ratio: 1;
     border-radius: 50%;
-    /* border: 4px solid hsl(var(--black) / 1); */
-    box-shadow:3px 3px 20px hsl(var(--black) /0.7);
+    box-shadow: 2px 2px 18px hsl(var(--black) / 0.7);
   }
 
   .brand-name {
@@ -45,36 +41,27 @@ export const HeroLogoStyled = styled.section`
     width: min-content;
     letter-spacing: 2px;
     line-height: 1.1;
-    /* line-height: 1.7; */
     margin: 7.5px;
     font-family: var(--ff-theseasons-reg);
-    /* font-size: calc(2.8rem + 2vmin); */
     font-size: var(--fs-900);
     font-weight: 400;
     color: hsl(var(--black));
-    text-shadow: 4px 4px hsl(var(--black) /0.27);
+    text-shadow: 4px 4px hsl(var(--black) / 0.27);
   }
   .brand-name span {
     color: hsl(var(--black));
-    /* font-weight: 600; */
   }
-  /* .setapps {
-    align-self: center;
-    text-align: center;
-    font-size: calc(50px + 2vmin);
-    font-weight: 400;
-    font-family: "Raleway", sans-serif;
-    color: hsl(var(--white));
-    letter-spacing: 1px;
-  } */
 
   // * Tablet & Landscape *
   @media (min-width: 35em) {
     .overlaped {
-    flex-direction: row;
-    margin-inline: 0rem;
-    gap:  1rem;
-  }
+      flex-direction: row;
+      margin-inline: 0rem;
+      gap: 1rem;
+      & img {
+        width: clamp(160px, 25vw, 180px);
+      }
+    }
 
     .background {
       height: 450px;
@@ -88,13 +75,15 @@ export const HeroLogoStyled = styled.section`
   // * Desktop *
   @media (min-width: 58em) {
     .overlaped {
-    flex-direction: row;
-    margin-inline: 0rem;
-    gap:  3rem;
-    
-  }
+      flex-direction: row;
+      margin-inline: 0rem;
+      gap: 3rem;
+      & img {
+        width: clamp(200px, 35vw, 250px);
+      }
+    }
     .background {
-      height: 85vh;
+      height: 750px;
     }
 
     .brand-name {

@@ -4,7 +4,6 @@ import HeroLogo from "./components/Hero-Logo/HeroLogo";
 import GridContainer from "./components/Grid-container/GridContainer";
 import FlexCards from "./components/Flex-cards/FlexCards";
 import FlexLinks from "./components/Flex-links/FlexLinks";
-// import AccordionBS from "./components/Accordion-BS/AccordionBS";
 import Footer from "./components/Footer-simple/Footer";
 import facebook from "@assets/facebook.png";
 import youtube from "@assets/youtube.png";
@@ -28,9 +27,14 @@ const App = () => {
           <h1 className="fs-900">Casa Productora</h1>
           <div className="hr-div"></div>
           <h1 className="fs-900">Incubadora Musical</h1>
-          <p className="uppercase text-accent ff-sans-cond letter-spacing-3">
+          <Fade
+            duration="450"
+            cascade
+            damping={1e-1}
+            className="uppercase text-accent ff-sans-cond letter-spacing-3"
+          >
             Por Pablo Palomares
-          </p>
+          </Fade>
         </a>
         <div className="container">
           <FlexLinks />
@@ -45,7 +49,11 @@ const App = () => {
 
         <div className="container flow">
           <div className="flex-center text-centered">
-            <h2 className="subtitle letter-spacing-3">Ubicados en GTO, MX.</h2>
+            <Fade>
+              <h2 className="subtitle letter-spacing-3">
+                Ubicados en GTO, MX.
+              </h2>
+            </Fade>
             <div className="hr-div"></div>
           </div>
           {/* <AccordionBS /> */}
@@ -75,7 +83,7 @@ const App = () => {
                 <img
                   src={facebook}
                   className="opaque-img"
-                  style={{ height: "56px", width: "56px" }}
+                  style={{ height: "48px", width: "48px" }}
                   alt="facebook logo"
                 />
               </a>
@@ -83,7 +91,7 @@ const App = () => {
                 <img
                   className="opaque-img"
                   src={youtube}
-                  style={{ height: "56px", width: "56px" }}
+                  style={{ height: "48px", width: "48px" }}
                   alt="youtube logo"
                 />
               </a>
@@ -91,7 +99,7 @@ const App = () => {
                 <img
                   className="opaque-img"
                   src={instagram}
-                  style={{ height: "56px", width: "56px" }}
+                  style={{ height: "48px", width: "48px" }}
                   alt="instagram logo"
                 />
               </a>

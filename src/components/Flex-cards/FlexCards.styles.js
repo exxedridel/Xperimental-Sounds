@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const FlexCardsStyled = styled.section`
   background-color: hsl(var(--glow-clr) / 0.8);
   border-radius: 4px;
-  color: grey;
+  color: #396060;
   padding: 5rem 10px 4rem;
   display: flex;
   justify-content: center;
@@ -40,10 +40,10 @@ export const FlexCardsStyled = styled.section`
 
   .icon-production img {
     margin-inline: auto;
-    width: 68px;
-    border-radius: 50%;
-    border: 5px solid hsl(var(--neon-blue) / 0.5);
-    box-shadow: inset 0px 0px 30px hsl(var(--white) / 1);
+    width: 56px;
+    border-radius: 15%;
+    border: 2px solid white;
+    box-shadow: inset 0px 0px 70px #00678a;
   }
 
   .info {
@@ -52,10 +52,11 @@ export const FlexCardsStyled = styled.section`
 
   .info h3 {
     font-family: var(--ff-theseasons-reg);
+    letter-spacing: 1.5px;
     font-weight: 600;
     text-transform: uppercase;
     text-align: center;
-    color: crimson;
+    color: #00678a;
     font-size: 20px;
     margin-bottom: 12px;
   }
