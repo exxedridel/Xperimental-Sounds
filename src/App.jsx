@@ -57,7 +57,7 @@ const App = () => {
             <div className="hr-div"></div>
           </div>
           {/* <AccordionBS /> */}
-          <p className="call-to-contact fs-600 text-centered">
+          <p className="call-to-contact fs-500 text-centered">
             Si tienes cualquier duda puedes mandarnos un mensaje a nuestro
             Whatsapp sin ningún compromiso, o si prefieres mediante nuestas
             redes sociales.

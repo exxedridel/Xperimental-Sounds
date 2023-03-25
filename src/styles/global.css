@@ -3,20 +3,20 @@
 /*----------------------------------------------*/
 
 @font-face {
-  font-family: 'TheSeasons-reg';
-  src: url('../assets/fonts/theseasons-reg.otf') format('opentype');
+  font-family: "TheSeasons-reg";
+  src: url("../assets/fonts/theseasons-reg.otf") format("opentype");
 }
 @font-face {
-  font-family: 'TheSeasons-lt';
-  src: url('../assets/fonts/theseasons-lt.otf') format('opentype');
+  font-family: "TheSeasons-lt";
+  src: url("../assets/fonts/theseasons-lt.otf") format("opentype");
 }
 @font-face {
-  font-family: 'TheSeasons-it';
-  src: url('../assets/fonts/theseasons-it.otf') format('opentype');
+  font-family: "TheSeasons-it";
+  src: url("../assets/fonts/theseasons-it.otf") format("opentype");
 }
 @font-face {
-  font-family: 'TheSeasons-bd';
-  src: url('../assets/fonts/theseasons-bd.otf') format('opentype');
+  font-family: "TheSeasons-bd";
+  src: url("../assets/fonts/theseasons-bd.otf") format("opentype");
 }
 
 :root {
@@ -44,7 +44,7 @@
   --fs-800: clamp(2.6rem, 6vw + 1rem, 4rem);
   --fs-700: clamp(1.3rem, 2vw, 1.8rem);
   --fs-600: clamp(1.2rem, 2vw, 1.35rem);
-  --fs-500: 1.25rem;
+  --fs-500: clamp(1rem, 2vw, 1.2rem);
   --fs-400: 1rem;
   --fs-300: 0.9375rem;
   --fs-200: 0.875rem;
@@ -254,13 +254,11 @@ select {
   text-align: center;
 }
 
-@media (min-width: 58em) {
-  .opaque-img {
-    transition: all 0.3s ease;
-    opacity: 1;
-  }
-  .opaque-img:hover,
-  .opaque-img:focus {
-    opacity: 0.7;
-  }
+.opaque-img {
+  transition: all 0.3s ease;
+  opacity: 1;
+}
+.opaque-img:hover,
+.opaque-img:focus {
+  opacity: 0.7;
 }

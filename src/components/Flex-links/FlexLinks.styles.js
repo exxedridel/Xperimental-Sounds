@@ -23,6 +23,7 @@ export const FlexLinksStyled = styled.div`
     flex-direction: row;
     align-items: center;
     box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
+    /* transition: all 0.3s ease; not working*/
   }
   .link:hover,
   .link:focus {
@@ -42,7 +43,7 @@ export const FlexLinksStyled = styled.div`
     position: relative;
     z-index: 1;
     display: inline-grid;
-    place-items: center; /* shorthand for justify and align items */
+    place-items: center;
     padding: 0 1em;
     border-radius: 50%;
     aspect-ratio: 1;
