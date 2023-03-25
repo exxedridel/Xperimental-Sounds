@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const GridContainerStyled = styled.main`
   & h2 {
-    font-family: var(--ff-theseasons-lt);
+    font-family: var(--ff-theseasons-reg-full);
     font-size: var(--fs-800);
   }
 

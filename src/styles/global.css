@@ -3,6 +3,10 @@
 /*----------------------------------------------*/
 
 @font-face {
+  font-family: "TheSeasons-reg-full";
+  src: url("../assets/fonts/theseasons-reg.ttf") format("opentype");
+}
+@font-face {
   font-family: "TheSeasons-reg";
   src: url("../assets/fonts/theseasons-reg.otf") format("opentype");
 }
@@ -33,6 +37,7 @@
   --ff-serif: "Roboto", sans-serif;
   --ff-sans-cond: "Roboto Condensed", sans-serif;
   --ff-sans-display: "Dela Gothic One", cursive;
+  --ff-theseasons-reg-full: "TheSeasons-reg-full", sans-serif;
   --ff-theseasons-reg: "TheSeasons-reg", sans-serif;
   --ff-theseasons-lt: "TheSeasons-lt", sans-serif;
   --ff-theseasons-it: "TheSeasons-it", sans-serif;
