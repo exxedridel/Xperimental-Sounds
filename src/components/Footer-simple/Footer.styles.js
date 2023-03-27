@@ -7,9 +7,8 @@ export const FooterStyled = styled.footer`
   padding: 4rem 1rem;
   text-align: center;
 
-  .line {
-    border-bottom: 1px solid white;
-    width: 100px;
+  .xs-brand {
+    font-family: var(--ff-theseasons-reg-full);
   }
 
   & a {

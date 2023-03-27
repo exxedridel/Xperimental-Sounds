@@ -61,7 +61,7 @@ const FlexCards = () => {
         </div>
         <div className="info fs-300">
           <h3>
-            Bases musicales personalizadas, beats
+            Bases musicales personalizadas (beats)
           </h3>
           <p>
             ¿Estas harto de practicar tus con música/beats de uso compartido en

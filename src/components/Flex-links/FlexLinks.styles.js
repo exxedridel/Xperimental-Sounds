@@ -28,6 +28,7 @@ export const FlexLinksStyled = styled.div`
   .link:hover,
   .link:focus {
     text-decoration: underline;
+    text-decoration-color: hsl(var(--brand-yellow));
     & .div-icon {
       background-color: hsl(var(--brand-yellow) / 0.8);
     }

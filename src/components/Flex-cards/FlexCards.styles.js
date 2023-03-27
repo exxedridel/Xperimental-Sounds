@@ -51,7 +51,7 @@ export const FlexCardsStyled = styled.section`
   }
 
   .info h3 {
-    font-family: var(--ff-theseasons-reg);
+    font-family: var(--ff-theseasons-reg-full);
     letter-spacing: 1.5px;
     font-weight: 600;
     text-transform: uppercase;

@@ -1,4 +1,5 @@
 import React from "react";
+import { Fade, Flip } from "react-awesome-reveal";
 import { HeroLogoStyled } from "./HeroLogo.styles";
 import Background from "@assets/bg-xs.svg";
 import Logo from "@assets/xperimental-sounds-logo.png";
@@ -13,8 +14,14 @@ const HeroLogo = () => {
     <HeroLogoStyled>
       <img className="background" src={Background} alt="beats yellow" />
       <div onClick={scrollToContent} className="overlaped">
-        <img className="logo" src={Logo} alt="Logo Xperimental Sounds" />
-        <p className="brand-name">Xperimental <span>Sounds</span></p>
+        <Flip className="brand-logo">
+          <img src={Logo} alt="Logo Xperimental Sounds" />
+        </Flip>
+        <Fade delay={1e3} className="brand-name">
+          <p>
+            Xperimental <span>Sounds</span>
+          </p>
+        </Fade>
         {/* <p className="setapps">Set<b>apps</b></p>
         <p className="brand-name">En español <span>fase 1</span></p> */}
       </div>

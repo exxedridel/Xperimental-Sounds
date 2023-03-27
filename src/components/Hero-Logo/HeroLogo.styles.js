@@ -26,9 +26,12 @@ export const HeroLogoStyled = styled.section`
     margin-inline: 1rem;
     cursor: pointer;
   }
-
+  .brand-logo {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
   .overlaped img {
-    align-self: center;
     width: 200px;
     aspect-ratio: 1;
     border-radius: 50%;
