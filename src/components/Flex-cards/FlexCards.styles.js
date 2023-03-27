@@ -11,6 +11,7 @@ export const FlexCardsStyled = styled.section`
   gap: 3rem;
 
   .card {
+    cursor: pointer;
     flex-basis: 330px;
     border: none;
     border-radius: 3px;
@@ -19,11 +20,22 @@ export const FlexCardsStyled = styled.section`
     background-color: white;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.15);
     transition: all 0.3s ease;
-    cursor: pointer;
+    & .icon-production img {
+      transition: box-shadow 0.3s ease;
+    }
+    & .info h3 {
+      transition: color 0.3s ease;
+    }
   }
   .card:hover {
     transform: translateY(-2.5%);
     box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 0.6);
+    & .icon-production img {
+      box-shadow: inset 0px 0px 120px hsl(var(--brand-blue));
+    }
+    & .info h3 {
+      color: hsl(var(--brand-blue));
+    }
   }
 
   .card .img-card {
@@ -67,19 +79,13 @@ export const FlexCardsStyled = styled.section`
     font-size: 16px;
   }
 
-  /* @media (min-width: 35em) {
-    & {
-      gap: 4.5rem;
-    }
-  } */
-
   @media (min-width: 55em) {
     & {
       gap: 6rem;
     }
 
     .card:hover {
-    transform: translateY(-5%);
-  }
+      transform: translateY(-5%);
+    }
   }
 `;

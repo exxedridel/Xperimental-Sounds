@@ -6,22 +6,6 @@
   font-family: "TheSeasons-reg-full";
   src: url("../assets/fonts/theseasons-reg.ttf") format("opentype");
 }
-@font-face {
-  font-family: "TheSeasons-reg";
-  src: url("../assets/fonts/theseasons-reg.otf") format("opentype");
-}
-@font-face {
-  font-family: "TheSeasons-lt";
-  src: url("../assets/fonts/theseasons-lt.otf") format("opentype");
-}
-@font-face {
-  font-family: "TheSeasons-it";
-  src: url("../assets/fonts/theseasons-it.otf") format("opentype");
-}
-@font-face {
-  font-family: "TheSeasons-bd";
-  src: url("../assets/fonts/theseasons-bd.otf") format("opentype");
-}
 
 :root {
   /* colors */
@@ -36,22 +20,17 @@
   /* font-families */
   --ff-serif: "Roboto", sans-serif;
   --ff-sans-cond: "Roboto Condensed", sans-serif;
-  --ff-sans-display: "Dela Gothic One", cursive;
   --ff-theseasons-reg-full: "TheSeasons-reg-full", sans-serif;
-  --ff-theseasons-reg: "TheSeasons-reg", sans-serif;
-  --ff-theseasons-lt: "TheSeasons-lt", sans-serif;
-  --ff-theseasons-it: "TheSeasons-it", sans-serif;
-  --ff-theseasons-bd: "TheSeasons-bd", sans-serif;
+  
 
   /* font-sizes */
-  /* clamp(2.25rem, 4.5vw + 1rem, 6.5rem); */
-  --fs-900: clamp(2.7rem, 6vw + 1rem, 6rem);
+  --fs-900: clamp(2.7rem, 6vw + 1rem, 5.25rem);
   --fs-800: clamp(2.6rem, 6vw + 1rem, 4rem);
   --fs-700: clamp(1.3rem, 2vw, 1.8rem);
   --fs-600: clamp(1.2rem, 2vw, 1.35rem);
   --fs-500: clamp(1rem, 2vw, 1.2rem);
   --fs-400: 1rem;
-  --fs-300: 0.9375rem;
+  --fs-300: clamp(0.82rem, 2vw, 1rem);
   --fs-200: 0.875rem;
 }
 /* -------------------------------------------- */
@@ -97,6 +76,12 @@ p {
 body {
   font-family: "Roboto", sans-serif;
   background-color: hsl(var(--background-clr));
+  background: linear-gradient(
+    90deg,
+    hsl(var(--background-clr)),
+    hsl(200 100% 9%),
+    hsl(200 100% 8%)
+  );
   color: hsl(var(--white));
   font-size: var(--fs-400);
   line-height: 1.5;

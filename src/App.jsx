@@ -53,7 +53,7 @@ const App = () => {
                 duration="450"
                 cascade
                 damping={1e-1}
-                className="uppercase text-accent ff-sans-cond letter-spacing-3"
+                className="uppercase text-accent ff-sans-cond fs-300 letter-spacing-3"
               >
                 Por Pablo Palomares
               </Fade>
@@ -73,7 +73,7 @@ const App = () => {
               <div className="flex-center text-centered">
                 <Fade>
                   <h2 className="subtitle letter-spacing-3">
-                    Ubicados en Guanajuato, México.
+                    Ubicados en Guanajuato, México
                   </h2>
                 </Fade>
                 <div className="hr-div"></div>

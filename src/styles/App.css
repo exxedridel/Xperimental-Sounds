@@ -9,9 +9,14 @@
 #main-content {
   text-decoration: none;
   color: var(--white);
-  border: 9px solid hsl(var(--white));
+  border: 7px solid hsl(var(--white));
   padding-block: 4rem;
   background-color: hsl(var(--black) / 0.4);
+  background: radial-gradient(
+    circle,
+    hsl(var(--white) /0.065),
+    hsl(var(--black) / 0.45)
+  );
   box-shadow: 0px 0px 20px hsl(var(--black) / 0.7);
 }
 #main-content > h1 {
@@ -23,6 +28,7 @@
 }
 .second-title {
   width: min-content;
+  margin-bottom: 0.125rem;
 }
 
 .subtitle {
@@ -32,15 +38,16 @@
   letter-spacing: 2px;
 }
 
+.title-div {
+  border-bottom: 2.5px solid hsl(var(--white));
+  width: 125px;
+  margin-block: 0.3rem;
+}
+
 .hr-div,
-.title-div,
 .hr-contact {
   border-bottom: 1px solid hsl(var(--white));
   width: 125px;
-}
-
-.title-div {
-  margin-block: 0.3rem;
 }
 
 .hr-contact {
@@ -50,12 +57,28 @@
 .call-to-contact {
   border: 5px solid hsl(var(--white));
   padding: 2rem;
-  background-color: hsl(var(--black) / 0.3);
+  background-color: hsl(var(--black) / 0.4);
+  background: linear-gradient(
+    50deg,
+    hsl(var(--black) / 0.35),
+    hsl(var(--white) / 0.07),
+    hsl(var(--black) / 0.25)
+  );
+  color: hsl(var(--white));
+  font-size: var(--fs-400);
+  line-height: 1.5;
 }
 
 @media (min-width: 35em) {
+  #main-content {
+    border: 8px solid hsl(var(--white));
+  }
   .title-div {
     margin-block: 0.475rem;
+    border-bottom-width: 3px;
+  }
+  .second-title {
+    margin-bottom: 0.2rem;
   }
   .hr-div {
     width: 200px;
@@ -66,10 +89,18 @@
 }
 
 @media (min-width: 45em) {
-  .title-div {
-    margin-block: 0.75rem;
+  #main-content {
+    border: 9px solid hsl(var(--white));
   }
   #main-content > h1 {
     letter-spacing: 7px;
+  }
+  .title-div {
+    margin-block: 0.75rem;
+    width: 230px;
+    border-bottom-width: 4px;
+  }
+  .second-title {
+    margin-bottom: 0.5rem;
   }
 }

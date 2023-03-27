@@ -39,15 +39,20 @@ export const HeroLogoStyled = styled.section`
   }
 
   .brand-name {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+  .brand-name p {
     align-self: center;
     text-align: center;
     width: min-content;
     letter-spacing: 2px;
     line-height: 1.1;
     margin: 7.5px;
-    font-family: var(--ff-theseasons-reg);
+    font-family: var(--ff-theseasons-reg-full);
     font-size: var(--fs-900);
-    font-weight: 400;
+    font-weight: 500;
     color: hsl(var(--black));
     text-shadow: 4px 4px hsl(var(--black) / 0.27);
   }
@@ -70,7 +75,7 @@ export const HeroLogoStyled = styled.section`
       height: 450px;
     }
 
-    .brand-name {
+    .brand-name p {
       letter-spacing: 3px;
       text-align: start;
     }
@@ -89,7 +94,7 @@ export const HeroLogoStyled = styled.section`
       height: 750px;
     }
 
-    .brand-name {
+    .brand-name p {
       letter-spacing: 4px;
     }
   }
