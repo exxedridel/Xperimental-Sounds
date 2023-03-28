@@ -30,7 +30,7 @@
   --fs-600: clamp(1.2rem, 2vw, 1.35rem);
   --fs-500: clamp(1rem, 2vw, 1.2rem);
   --fs-400: 1rem;
-  --fs-300: clamp(0.82rem, 2vw, 1rem);
+  --fs-300: clamp(0.85rem, 2vw, 1rem);
   --fs-200: 0.875rem;
 }
 /* -------------------------------------------- */
