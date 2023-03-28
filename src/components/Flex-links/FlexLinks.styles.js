@@ -23,7 +23,7 @@ export const FlexLinksStyled = styled.div`
     flex-direction: row;
     align-items: center;
     box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
-    transition: background-color 0.3s ease;
+    transition: color 0.3s ease;
     & .div-icon {
       transition: background-color 0.3s ease;
     }
@@ -31,9 +31,10 @@ export const FlexLinksStyled = styled.div`
 
   .link:hover,
   .link:focus {
-    background-color: hsl(var(--brand-yellow) /0.875);
+    color: hsl(var(--white) /0.8);
+    text-decoration: underline;
     & .div-icon {
-      background-color: hsl(var(--brand-blue) /0.925);
+      background-color: hsl(var(--brand-blue) /0.9);
     }
   }
 

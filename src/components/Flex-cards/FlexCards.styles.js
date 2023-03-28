@@ -31,10 +31,10 @@ export const FlexCardsStyled = styled.section`
     transform: translateY(-2.5%);
     box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 0.6);
     & .icon-production img {
-      box-shadow: inset 0px 0px 120px hsl(var(--brand-blue));
+      box-shadow: inset 0px 0px 120px #00678a;
     }
     & .info h3 {
-      color: hsl(var(--brand-blue));
+      color: #00678a;
     }
   }
 
@@ -55,7 +55,7 @@ export const FlexCardsStyled = styled.section`
     width: 56px;
     border-radius: 15%;
     border: 2px solid white;
-    box-shadow: inset 0px 0px 70px #00678a;
+    box-shadow: inset 0px 0px 70px hsl(200 100% 18%);
   }
 
   .info {
@@ -68,7 +68,7 @@ export const FlexCardsStyled = styled.section`
     font-weight: 600;
     text-transform: uppercase;
     text-align: center;
-    color: #00678a;
+    color: hsl(200 100% 18%);
     font-size: 20px;
     margin-bottom: 12px;
   }
