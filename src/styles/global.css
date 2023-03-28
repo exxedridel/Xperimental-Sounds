@@ -76,12 +76,6 @@ p {
 body {
   font-family: "Roboto", sans-serif;
   background-color: hsl(var(--background-clr));
-  background: linear-gradient(
-    90deg,
-    hsl(var(--background-clr)),
-    hsl(200 100% 9%),
-    hsl(200 100% 8%)
-  );
   color: hsl(var(--white));
   font-size: var(--fs-400);
   line-height: 1.5;

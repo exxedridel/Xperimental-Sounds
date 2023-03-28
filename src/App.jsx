@@ -39,7 +39,7 @@ const App = () => {
         </div>
       ) : (
         <>
-          <div className="flow">
+          <div className="App flow">
             <HeroLogo />
             <a
               id="main-content"
