@@ -1,10 +1,15 @@
 .App {
-  background: linear-gradient(
+  /* background: linear-gradient(
     90deg,
     hsl(var(--background-clr)),
     hsl(200 100% 11%),
-    hsl(200 100% 9%)
-  );
+    hsl(200 100% 6%)
+  ); */
+  /* background-size: cover; */
+  background-position: center;
+  /* background-image: url("https://www.toptal.com/designers/subtlepatterns/uploads/fancy-cushion.png"); */
+  /* background-image: url("https://www.toptal.com/designers/subtlepatterns/uploads/green-fibers.png"); */
+  background-image: url("https://www.toptal.com/designers/subtlepatterns/uploads/padded.png");
 }
 
 .loader {
@@ -20,13 +25,16 @@
   color: var(--white);
   border: 7px solid hsl(var(--white));
   padding-block: 4rem;
-  background-color: hsl(var(--black) / 0.4);
+  /* background-color: hsl(var(--black) / 0.4);
   background: radial-gradient(
     circle,
-    hsl(var(--white) /0.065),
+    hsl(var(--white) / 0.065),
     hsl(var(--black) / 0.45)
-  );
-  box-shadow: 0px 0px 20px hsl(var(--black) / 0.7);
+  ); */
+  background-size: cover;
+  background-position: center;
+  background-image: url("https://img.freepik.com/free-vector/wavy-line-pattern-dark-background_1409-1670.jpg?w=1380&t=st=1680047489~exp=1680048089~hmac=71a9a84c4f147ff678eee8f6f9d66057c7a4f55486ddacaccb31a9b1198a9482");
+  box-shadow: 3px 3px 50px hsl(var(--black) / 0.7);
 }
 #main-content > h1 {
   text-align: center;
@@ -69,9 +77,9 @@
   background-color: hsl(var(--black) / 0.4);
   background: linear-gradient(
     50deg,
-    hsl(var(--black) / 0.3),
+    hsl(var(--black) / 0.1),
     hsl(var(--white) / 0.075),
-    hsl(var(--black) / 0.2)
+    hsl(var(--black) / 0.1)
   );
   color: hsl(var(--white));
   font-size: var(--fs-400);

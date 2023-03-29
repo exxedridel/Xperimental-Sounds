@@ -2,7 +2,7 @@ import React from "react";
 import { Fade, Flip } from "react-awesome-reveal";
 import { HeroLogoStyled } from "./HeroLogo.styles";
 import Background from "@assets/bg-xs.svg";
-import Logo from "@assets/xperimental-sounds-logo.png";
+import Logo from "@assets/xs-demo.png";
 
 const HeroLogo = () => {
   function scrollToContent() {
