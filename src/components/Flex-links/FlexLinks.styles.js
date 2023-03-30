@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import incubadora from "@assets/incubadora.jpg";
 import negocios from "@assets/negocios.jpg";
-import liveBand from "@assets/live-band.jpg";
+import liveBand from "@assets/live-band-contrast.jpg";
 import ownBeats from "@assets/beats-personalizados.jpg";
 
 export const FlexLinksStyled = styled.div`
@@ -36,7 +36,7 @@ export const FlexLinksStyled = styled.div`
   .link:focus {
     color: hsl(var(--brand-yellow));
     & .div-icon {
-      background-color: hsl(var(--background-clr) / 0.4);
+      background-color: hsl(var(--background-clr) /0.9);
     }
     & .div-span {
       filter: grayscale(20%);
@@ -49,7 +49,7 @@ export const FlexLinksStyled = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: hsl(var(--background-clr) / 0.85);
+    background-color: hsl(var(--background-clr) / 0.6);
     position: relative;
     z-index: 1;
     display: inline-grid;
@@ -119,12 +119,6 @@ export const FlexLinksStyled = styled.div`
       background-size: cover;
       background-position: center center;
       background-image: url(${liveBand});
-      filter: contrast(125%) grayscale(100%)
-    }
-  }
-  .live-band:hover {
-    & .div-span {
-      filter: contrast(125%) grayscale(20%);
     }
   }
 

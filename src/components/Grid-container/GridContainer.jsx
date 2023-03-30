@@ -1,6 +1,6 @@
 import React from "react";
+import { Fade, Flip, Rotate } from "react-awesome-reveal";
 import { GridContainerStyled } from "./GridContainer.styles";
-import incubadoraMusical from "@assets/incubadora-musical.jpg";
 
 const GridContainer = () => {
   return (
@@ -18,7 +18,16 @@ const GridContainer = () => {
           negocio y tamaño de tu proyecto.
         </p>
       </article>
-      <img src={incubadoraMusical} alt="performing artist" />
+      <div className="div-xs-image">
+        <Fade
+          duration="3000"
+          cascade
+          damping={1e-1}
+          className="XS text-accent"
+        >
+          XS
+        </Fade>
+      </div>
     </GridContainerStyled>
   );
 };

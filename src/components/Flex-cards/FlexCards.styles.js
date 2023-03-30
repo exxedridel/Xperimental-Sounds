@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const FlexCardsStyled = styled.section`
-  background-color: hsl(var(--brand-grey) / 0.4);
+  background-color: hsl(var(--background-clr) / 0.4);
   border-radius: 4px;
   color: hsl(var(--brand-grey));
   padding: 5rem 10px 4rem;
@@ -31,7 +31,7 @@ export const FlexCardsStyled = styled.section`
     transform: translateY(-2.5%);
     box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 0.6);
     & .icon-production img {
-      box-shadow: inset 0px 0px 120px hsl(var(--background-clr));
+      box-shadow: inset 0px 0px 300px hsl(var(--background-clr));
     }
     & .info h3 {
       color: hsl(var(--background-clr));
@@ -44,10 +44,6 @@ export const FlexCardsStyled = styled.section`
     align-self: center;
     border-radius: 3px 3px 0 0;
     object-fit: cover;
-  }
-
-  #live-band img {
-    filter: contrast(125%);
   }
 
   .icon-production {

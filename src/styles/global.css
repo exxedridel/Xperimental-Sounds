@@ -15,8 +15,6 @@
   /* colors */
   --background-clr: 200 100% 10%;
   /* #002233 */
-  --glow-clr: 50 100% 68%;
-  --neon-blue: 195 100% 50%;
   --white: 0 0% 96%;
   --black: 0 0% 0%;
   --brand-blue: 213 100% 33%;
@@ -140,7 +138,7 @@ select {
   color: hsl(var(--background-clr));
 }
 .text-accent {
-  color: hsl(var(--glow-clr));
+  color: hsl(var(--brand-yellow));
 }
 .text-white {
   color: hsl(var(--white));

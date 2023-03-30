@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-// import ScaleLoader from "react-spinners/ScaleLoader";
 import { Fade, Flip, Rotate } from "react-awesome-reveal";
 import HeroLogo from "./components/Hero-Logo/HeroLogo";
 import GridContainer from "./components/Grid-container/GridContainer";
@@ -29,20 +28,10 @@ const App = () => {
   return (
     <>
       {loading ? (
-        // <div className="loader">
-        //   <ScaleLoader
-        //     color={"hsl(var(--brand-yellow))"}
-        //     loading={loading}
-        //     size={75}
-        //     aria-label="Loading Spinner"
-        //     data-testid="loader"
-        //   />
-        // </div>
         <HeroLogo />
       ) : (
         <>
           <div className="App flow">
-            {/* <HeroLogo /> */}
             <a
               id="main-content"
               href="#about"
@@ -69,11 +58,9 @@ const App = () => {
             </a>
             <div className="container flow-normal">
               <div className="flex-center text-centered">
-                <Fade>
-                  <h2 className="subtitle letter-spacing-3">
-                    Nuestros Servicios:
-                  </h2>
-                </Fade>
+                <h2 className="subtitle letter-spacing-3">
+                  Nuestros Servicios:
+                </h2>
                 <div className="hr-div"></div>
               </div>
               <FlexLinks />
@@ -105,7 +92,9 @@ const App = () => {
 
             <div id="contact-sect" className="container">
               <div className="flex-center text-centered">
-                <h2 className="subtitle letter-spacing-3">Contáctanos</h2>
+                <Fade>
+                  <h2 className="subtitle letter-spacing-3">Contáctanos</h2>
+                </Fade>
                 <div className="hr-contact"></div>
                 <a href="/">
                   <Flip duration="2000">

@@ -6,7 +6,7 @@ import liveBandIcon from "@assets/live.png";
 import personalBeatsIcon from "@assets/production.png";
 import incubadora from "@assets/incubadora.jpg";
 import negocios from "@assets/negocios.jpg";
-import liveBand from "@assets/live-band.jpg";
+import liveBand from "@assets/live-band-contrast.jpg";
 import ownBeats from "@assets/beats-personalizados.jpg";
 
 const FlexCards = () => {

@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import incubadora from "@assets/incubadora-musical.jpg";
 
 export const GridContainerStyled = styled.main`
   & h2 {
@@ -16,16 +17,26 @@ export const GridContainerStyled = styled.main`
     grid-area: article;
   }
 
-  & img {
+  .div-xs-image {
     grid-area: image;
+    display: flex;
+    justify-content: right;
     height: 550px;
-    width: 550px;
-    object-fit: cover;
+    max-width: 550px;
     margin-top: 2rem;
     margin-inline: auto;
     border-radius: 3px;
-    filter:  grayscale(50%);
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.50);
+    background-size: cover;
+    background-position: center center;
+    background-image: url(${incubadora});
+    filter: grayscale(50%);
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  }
+
+  .XS {
+    padding: 1.5rem 2rem 0;
+    font-family: var(--ff-theseasons-reg-full);
+    font-size: 70px;
   }
 
   @media (min-width: 58em) {
@@ -34,7 +45,7 @@ export const GridContainerStyled = styled.main`
     column-gap: 2rem;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     grid-template-areas: "article image";
-    & img {
+    .div-xs-image {
       min-height: 100%;
       min-width: 100%;
       margin-top: 0;
