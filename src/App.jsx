@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import ScaleLoader from "react-spinners/ScaleLoader";
-import { Fade, Flip } from "react-awesome-reveal";
+// import ScaleLoader from "react-spinners/ScaleLoader";
+import { Fade, Flip, Rotate } from "react-awesome-reveal";
 import HeroLogo from "./components/Hero-Logo/HeroLogo";
 import GridContainer from "./components/Grid-container/GridContainer";
 import FlexCards from "./components/Flex-cards/FlexCards";
@@ -59,10 +59,16 @@ const App = () => {
               >
                 Xperimental Sounds
               </Fade>
-              <img className="logo" src={logo} alt="Xperimental Sounds logo" />
+              <Rotate duration="3000">
+                <img
+                  className="logo"
+                  src={logo}
+                  alt="Xperimental Sounds logo"
+                />
+              </Rotate>
             </a>
             <div className="container flow-normal">
-            <div className="flex-center text-centered">
+              <div className="flex-center text-centered">
                 <Fade>
                   <h2 className="subtitle letter-spacing-3">
                     Nuestros Servicios:

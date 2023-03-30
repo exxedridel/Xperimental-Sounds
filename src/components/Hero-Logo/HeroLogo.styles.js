@@ -10,7 +10,7 @@ export const HeroLogoStyled = styled.section`
 
   .background {
     width: 100%;
-    height: 100vh;
+    height: 90vh;
     background-color: whitesmoke;
     background-size: cover;
     object-fit: cover;

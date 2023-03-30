@@ -16,7 +16,7 @@ export const FlexLinksStyled = styled.div`
     cursor: pointer;
     text-decoration: none;
     color: hsl(var(--white));
-    background-color: hsl(var(--white) / 0.9);
+    background-color: hsl(var(--background-clr) / 0.2);
     height: 150px;
     border-radius: 6px;
     display: flex;
@@ -34,9 +34,9 @@ export const FlexLinksStyled = styled.div`
 
   .link:hover,
   .link:focus {
-    color: hsl(var(--brand-yellow) /0.85);
+    color: hsl(var(--brand-yellow));
     & .div-icon {
-      background-color: hsl(var(--black) /0.6);
+      background-color: hsl(var(--background-clr) / 0.4);
     }
     & .div-span {
       filter: grayscale(20%);
@@ -49,7 +49,7 @@ export const FlexLinksStyled = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: hsl(var(--black) / 0.8);
+    background-color: hsl(var(--background-clr) / 0.85);
     position: relative;
     z-index: 1;
     display: inline-grid;
@@ -119,8 +119,15 @@ export const FlexLinksStyled = styled.div`
       background-size: cover;
       background-position: center center;
       background-image: url(${liveBand});
+      filter: contrast(125%) grayscale(100%)
     }
   }
+  .live-band:hover {
+    & .div-span {
+      filter: contrast(125%) grayscale(20%);
+    }
+  }
+
   .own-beats {
     & .div-span {
       background-size: cover;

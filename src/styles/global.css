@@ -14,6 +14,7 @@
 :root {
   /* colors */
   --background-clr: 200 100% 10%;
+  /* #002233 */
   --glow-clr: 50 100% 68%;
   --neon-blue: 195 100% 50%;
   --white: 0 0% 96%;
@@ -38,7 +39,7 @@
   --fs-600: clamp(1.2rem, 2vw, 1.35rem);
   --fs-500: clamp(1rem, 2vw, 1.2rem);
   --fs-400: 1rem;
-  --fs-300: clamp(1rem, 2vw, 1.5rem);
+  --fs-300: clamp(0.875rem, 2vw, 1rem);
   --fs-200: 0.875rem;
 }
 /* -------------------------------------------- */
@@ -83,7 +84,7 @@ p {
 
 body {
   font-family: "Roboto", sans-serif;
-  background-color: #12121b;
+  background-color: #12151b;
   background-position: center;
   /* background-image: url("https://www.toptal.com/designers/subtlepatterns/uploads/fancy-cushion.png"); */
   /* background-image: url("https://www.toptal.com/designers/subtlepatterns/uploads/green-fibers.png"); */

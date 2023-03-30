@@ -24,7 +24,7 @@ export const GridContainerStyled = styled.main`
     margin-top: 2rem;
     margin-inline: auto;
     border-radius: 3px;
-    filter: hue-rotate(50deg) grayscale(60%);
+    filter:  grayscale(50%);
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.50);
   }
 
