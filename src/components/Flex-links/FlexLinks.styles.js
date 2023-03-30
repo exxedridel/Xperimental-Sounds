@@ -10,13 +10,13 @@ export const FlexLinksStyled = styled.div`
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
-  padding: 10px;
+  /* padding: 10px; */
 
   .link {
     cursor: pointer;
     text-decoration: none;
-    color: white;
-    background-color: hsl(var(--neon-blue) / 0.16);
+    color: hsl(var(--white));
+    background-color: hsl(var(--white) / 0.9);
     height: 150px;
     border-radius: 6px;
     display: flex;
@@ -27,14 +27,19 @@ export const FlexLinksStyled = styled.div`
     & .div-icon {
       transition: background-color 0.3s ease;
     }
+    & .div-span {
+      transition: filter 0.3s ease;
+    }
   }
 
   .link:hover,
   .link:focus {
-    color: hsl(var(--white) /0.8);
-    text-decoration: underline;
+    color: hsl(var(--brand-yellow) /0.85);
     & .div-icon {
-      background-color: hsl(var(--brand-blue) /0.9);
+      background-color: hsl(var(--black) /0.6);
+    }
+    & .div-span {
+      filter: grayscale(20%);
     }
   }
 
@@ -44,7 +49,7 @@ export const FlexLinksStyled = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: hsl(var(--neon-blue) / 0.4);
+    background-color: hsl(var(--black) / 0.8);
     position: relative;
     z-index: 1;
     display: inline-grid;
@@ -82,6 +87,7 @@ export const FlexLinksStyled = styled.div`
     align-items: center;
     text-align: center;
     border-radius: 0 6px 6px 0;
+    filter: grayscale(100%);
     & span {
       font-family: var(--ff-sans-cond);
       font-size: var(--fs-700);
@@ -125,7 +131,7 @@ export const FlexLinksStyled = styled.div`
 
   @media (min-width: 35em) {
     & {
-      padding: 1.5rem;
+      /* padding: 1.5rem; */
     }
   }
 

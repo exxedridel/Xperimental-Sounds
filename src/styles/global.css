@@ -4,7 +4,11 @@
 
 @font-face {
   font-family: "TheSeasons-reg-full";
-  src: url("../assets/fonts/theseasons-reg.ttf") format("opentype");
+  src: url("../assets/fonts/theseasons-reg.ttf");
+}
+@font-face {
+  font-family: "TheSeasons-lt-full";
+  src: url("../assets/fonts/theseasons-lt.ttf");
 }
 
 :root {
@@ -18,12 +22,14 @@
   /* #004BA8 */
   --brand-yellow: 48 100% 67%;
   /* #FFDD56 */
+  --brand-grey: 208 12% 30%;
+  /* #434d56 */
 
   /* font-families */
   --ff-serif: "Roboto", sans-serif;
   --ff-sans-cond: "Roboto Condensed", sans-serif;
   --ff-theseasons-reg-full: "TheSeasons-reg-full", sans-serif;
-  
+  --ff-theseasons-lt-full: "TheSeasons-lt-full", sans-serif;
 
   /* font-sizes */
   --fs-900: clamp(2.7rem, 6vw + 1rem, 5.25rem);
@@ -32,7 +38,7 @@
   --fs-600: clamp(1.2rem, 2vw, 1.35rem);
   --fs-500: clamp(1rem, 2vw, 1.2rem);
   --fs-400: 1rem;
-  --fs-300: clamp(0.85rem, 2vw, 1rem);
+  --fs-300: clamp(1rem, 2vw, 1.5rem);
   --fs-200: 0.875rem;
 }
 /* -------------------------------------------- */
@@ -78,6 +84,10 @@ p {
 body {
   font-family: "Roboto", sans-serif;
   background-color: hsl(var(--background-clr));
+  background-position: center;
+  /* background-image: url("https://www.toptal.com/designers/subtlepatterns/uploads/fancy-cushion.png"); */
+  /* background-image: url("https://www.toptal.com/designers/subtlepatterns/uploads/green-fibers.png"); */
+  background-image: url("https://www.toptal.com/designers/subtlepatterns/uploads/padded.png");
   color: hsl(var(--white));
   font-size: var(--fs-400);
   line-height: 1.5;
@@ -142,8 +152,11 @@ select {
 .ff-sans-cond {
   font-family: var(--ff-sans-cond);
 }
-.ff-sans-normal {
-  font-family: var(--ff-sans-display);
+.ff-theseasons-reg-full {
+  font-family: var(--ff-theseasons-reg-full);
+}
+.ff-theseasons-lt-full {
+  font-family: var(--ff-theseasons-lt-full);
 }
 
 .letter-spacing-1 {

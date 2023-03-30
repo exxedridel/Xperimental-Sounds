@@ -10,13 +10,13 @@ export const HeroLogoStyled = styled.section`
 
   .background {
     width: 100%;
-    height: 75vh;
-    background-color: hsl(var(--brand-yellow));
+    height: 100vh;
+    background-color: whitesmoke;
     background-size: cover;
     object-fit: cover;
     opacity: 1;
     box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
-    padding-block: 0.2rem;
+    padding-block: 0.5rem;
   }
 
   .overlaped {
@@ -33,9 +33,9 @@ export const HeroLogoStyled = styled.section`
   }
   .overlaped img {
     width: 200px;
-    aspect-ratio: 1;
-    border-radius: 50%;
-    box-shadow: 2px 2px 18px hsl(var(--black) / 0.7);
+    /* aspect-ratio: 1;
+    border-radius: 50%; */
+    /* box-shadow: 2px 2px 18px hsl(var(--black) / 0.7); */
   }
 
   .brand-name {
@@ -72,7 +72,8 @@ export const HeroLogoStyled = styled.section`
     }
 
     .background {
-      height: 450px;
+      /* height: 450px; */
+      height: 100vh;
     }
 
     .brand-name p {
@@ -91,7 +92,7 @@ export const HeroLogoStyled = styled.section`
       }
     }
     .background {
-      height: 750px;
+      height: 100vh;
     }
 
     .brand-name p {

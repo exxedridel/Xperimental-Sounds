@@ -6,6 +6,7 @@ import GridContainer from "./components/Grid-container/GridContainer";
 import FlexCards from "./components/Flex-cards/FlexCards";
 import FlexLinks from "./components/Flex-links/FlexLinks";
 import Footer from "./components/Footer-simple/Footer";
+import logo from "@assets/xs-circle-final.svg";
 import facebook from "@assets/facebook.png";
 import youtube from "@assets/youtube.png";
 import whatsapp from "@assets/whatsapp.png";
@@ -22,25 +23,26 @@ const App = () => {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 2000);
+    }, 3000);
   }, []);
 
   return (
     <>
       {loading ? (
-        <div className="loader">
-          <ScaleLoader
-            color={"hsl(var(--brand-yellow))"}
-            loading={loading}
-            size={75}
-            aria-label="Loading Spinner"
-            data-testid="loader"
-          />
-        </div>
+        // <div className="loader">
+        //   <ScaleLoader
+        //     color={"hsl(var(--brand-yellow))"}
+        //     loading={loading}
+        //     size={75}
+        //     aria-label="Loading Spinner"
+        //     data-testid="loader"
+        //   />
+        // </div>
+        <HeroLogo />
       ) : (
         <>
           <div className="App flow">
-            <HeroLogo />
+            {/* <HeroLogo /> */}
             <a
               id="main-content"
               href="#about"
@@ -53,12 +55,21 @@ const App = () => {
                 duration="450"
                 cascade
                 damping={1e-1}
-                className="uppercase text-accent ff-sans-cond fs-300 letter-spacing-3"
+                className="logo-text text-accent"
               >
-                Por Pablo Palomares
+                Xperimental Sounds
               </Fade>
+              <img className="logo" src={logo} alt="Xperimental Sounds logo" />
             </a>
-            <div className="container">
+            <div className="container flow-normal">
+            <div className="flex-center text-centered">
+                <Fade>
+                  <h2 className="subtitle letter-spacing-3">
+                    Nuestros Servicios:
+                  </h2>
+                </Fade>
+                <div className="hr-div"></div>
+              </div>
               <FlexLinks />
             </div>
 
@@ -69,7 +80,7 @@ const App = () => {
               <FlexCards />
             </div>
 
-            <div className="container flow">
+            <div className="container flow-normal">
               <div className="flex-center text-centered">
                 <Fade>
                   <h2 className="subtitle letter-spacing-3">

@@ -5,11 +5,7 @@
     hsl(200 100% 11%),
     hsl(200 100% 6%)
   ); */
-  /* background-size: cover; */
-  background-position: center;
-  /* background-image: url("https://www.toptal.com/designers/subtlepatterns/uploads/fancy-cushion.png"); */
-  /* background-image: url("https://www.toptal.com/designers/subtlepatterns/uploads/green-fibers.png"); */
-  background-image: url("https://www.toptal.com/designers/subtlepatterns/uploads/padded.png");
+  /* background-size: cover; not for patterns*/
 }
 
 .loader {
@@ -48,6 +44,17 @@
   margin-bottom: 0.125rem;
 }
 
+.logo-text {
+  font-family: var(--ff-theseasons-lt-full);
+  font-size: var(--fs-300);
+  letter-spacing: 3px;
+}
+
+.logo {
+  padding-top: 1rem;
+  width: clamp(160px, 35vw, 220px);
+}
+
 .subtitle {
   font-family: var(--ff-theseasons-reg-full);
   text-transform: uppercase;
@@ -68,7 +75,7 @@
 }
 
 .hr-contact {
-  margin-bottom: 1rem;
+  margin-bottom: 1.2rem;
 }
 
 .call-to-contact {
@@ -119,5 +126,11 @@
   }
   .second-title {
     margin-bottom: 0.5rem;
+  }
+}
+
+@media (min-width: 75em) {
+  #main-content {
+    margin-top: 2.1rem;
   }
 }
