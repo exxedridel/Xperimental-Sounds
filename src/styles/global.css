@@ -83,7 +83,7 @@ p {
 
 body {
   font-family: "Roboto", sans-serif;
-  background-color: hsl(var(--background-clr));
+  background-color: #12121b;
   background-position: center;
   /* background-image: url("https://www.toptal.com/designers/subtlepatterns/uploads/fancy-cushion.png"); */
   /* background-image: url("https://www.toptal.com/designers/subtlepatterns/uploads/green-fibers.png"); */
