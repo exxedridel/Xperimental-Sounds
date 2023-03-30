@@ -5,15 +5,15 @@ import Background from "@assets/bg-xs.svg";
 import Logo from "@assets/xs-circle-final2.svg";
 
 const HeroLogo = () => {
-  function scrollToContent() {
-    const element = document.getElementById("main-content");
-    element.scrollIntoView();
-  }
+  // function scrollToContent() {
+  //   const element = document.getElementById("main-content");
+  //   element.scrollIntoView();
+  // }
 
   return (
     <HeroLogoStyled>
       <img className="background" src={Background} alt="beats yellow" />
-      <div onClick={scrollToContent} className="overlaped">
+      <div className="overlaped">
         <Flip className="brand-logo">
           <img src={Logo} alt="Logo Xperimental Sounds" />
         </Flip>

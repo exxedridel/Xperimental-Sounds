@@ -46,6 +46,10 @@ export const FlexCardsStyled = styled.section`
     object-fit: cover;
   }
 
+  #live-band img {
+    filter: contrast(125%);
+  }
+
   .icon-production {
     margin-top: -32px;
   }

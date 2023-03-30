@@ -1,5 +1,4 @@
 import React from "react";
-import { Fade } from "react-awesome-reveal";
 import { GridContainerStyled } from "./GridContainer.styles";
 import incubadoraMusical from "@assets/incubadora-musical.jpg";
 
@@ -7,9 +6,7 @@ const GridContainer = () => {
   return (
     <GridContainerStyled>
       <article className="flow-small">
-        <Fade>
-          <h2>¿Quiénes somos?</h2>
-        </Fade>
+        <h2>¿Quiénes somos?</h2>
         <p>
           Somos una incubadora musical y casa productora dedicada a la
           composición, producción, interpretación y arreglos musicales de
