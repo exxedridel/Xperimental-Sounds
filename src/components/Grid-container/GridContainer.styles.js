@@ -11,9 +11,11 @@ export const GridContainerStyled = styled.main`
   }
 
   & p {
-    line-height: 1.6;
-    /* font-style: italic; */
-    font-size: var(--fs-600);
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-style: italic;
+    font-size: var(--fs-500);
+    font-weight: 300;
     margin-top: 2rem;
   }
 
@@ -34,7 +36,7 @@ export const GridContainerStyled = styled.main`
     background-position: center center;
     background-image: url(${incubadora});
     filter: grayscale(50%);
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    
   }
 
   .XS {
@@ -47,9 +49,9 @@ export const GridContainerStyled = styled.main`
     text-align: start;
     display: grid;
     place-items: center;
-    column-gap: 2rem;
+    column-gap: 2.5rem;
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    grid-template-areas: "article image";
+    grid-template-areas: "image article";
     .div-xs-image {
       min-height: 100%;
       min-width: 100%;

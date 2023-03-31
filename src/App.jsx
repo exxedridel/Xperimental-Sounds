@@ -88,8 +88,8 @@ const App = () => {
               {/* <AccordionBS /> */}
               <p className="call-to-contact fs-500 text-centered">
                 Si tienes cualquier duda puedes mandarnos un mensaje a nuestro
-                Whatsapp sin ningún compromiso, o si prefieres mediante nuestas
-                redes sociales.
+                Whatsapp sin ningún compromiso, también puedes conocer más de
+                nuestro trabajo a través de nuestas redes sociales.
               </p>
             </div>
 

@@ -39,7 +39,7 @@ export const FlexLinksStyled = styled.div`
       background-color: hsl(var(--background-clr) /0.9);
     }
     & .div-span {
-      filter: grayscale(20%);
+      filter: grayscale(30%);
     }
   }
 

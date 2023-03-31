@@ -23,17 +23,17 @@ const FlexCards = () => {
           <img src={incubatorIcon} alt="production icon" />
         </div>
         <div className="info fs-300">
-          <h3>
-            Incubadora Musical
-          </h3>
+          <h3>Incubadora Musical</h3>
           <p>
-            En nuestra incubadora musical te ayudaremos a hacer realidad
-            cualquier idea musical que quieras llevar a cabo. Nuestros
-            compositores te ayudaran en todo el proceso que conlleva crear una
-            canción hasta un álbum. Nosotros no creemos en la música mala o
-            buena, todas las creaciones tienen su lugar y sin importar que tipo
-            de música te interese producir nosotros podemos ayudarte.
+            En nuestra incubadora musical te podemos ayudar a aterrizar tu
+            proyecto como artista. Nuestros compositores te ayudarán en todo el
+            proceso que conlleva crear desde un tema hasta un álbum completo.
+            Todas las creaciones tienen un público y sin importar el género que
+            te interese producir nosotros podemos impulsarte.
           </p>
+          <div className="flex-center">
+            <button className="schedule-btn">Agendar Cita</button>
+          </div>
         </div>
       </article>
       <article id="negocios" onClick={scrollToContact} className="card">
@@ -42,16 +42,17 @@ const FlexCards = () => {
           <img src={productionIcon} alt="production icon" />
         </div>
         <div className="info fs-300">
-          <h3>
-            Audio Empresarial y de Negocios
-          </h3>
+          <h3>Música para empresas</h3>
           <p>
             En el área de producción de audio empresarial y de negocios
             llevaremos a tu negocio al siguiente nivel. Ofrecemos música para
-            comerciales de radio o T.V., spots, redes sociales o cualquier
-            mercado al que quieras llegar. No importa que tan pequeño o grande
-            sea tu proyecto, nuestro equipo te acompañara en todo el proceso.
+            comerciales de radio o TV, spots, redes sociales o cualquier mercado
+            al que quieras llegar. No importa que tan pequeño o grande sea tu
+            proyecto, nuestro equipo puede darle proyección a tu mensaje.
           </p>
+          <div className="flex-center">
+            <button className="schedule-btn">Agendar Cita</button>
+          </div>
         </div>
       </article>
       <article id="personal-beats" onClick={scrollToContact} className="card">
@@ -60,15 +61,17 @@ const FlexCards = () => {
           <img src={personalBeatsIcon} alt="production icon" />
         </div>
         <div className="info fs-300">
-          <h3>
-            Bases musicales personalizadas (beats)
-          </h3>
+          <h3>BEATS Personalizados</h3>
           <p>
-            ¿Estas harto de practicar tus con música/beats de uso compartido en
-            YouTube? Nosotros podemos componer una base personalizada para que
-            lleves tus presentaciones al máximo nivel de calidad. Contamos con
-            instrumentales de todos géneros.
+            ¿Estas harto de practicar tus barras con música/beats de uso
+            compartido en YouTube? ¡Añádeles tu propia personalidad! nosotros
+            podemos componer bases personalizadas para que verdaderamente
+            impactes en tus presentaciones con el máximo nivel de calidad.
+            Contamos con instrumentales de todos géneros.
           </p>
+          <div className="flex-center">
+            <button className="schedule-btn">Agendar Cita</button>
+          </div>
         </div>
       </article>
       <article id="live-band" onClick={scrollToContact} className="card">
@@ -77,14 +80,18 @@ const FlexCards = () => {
           <img src={liveBandIcon} alt="production icon" />
         </div>
         <div className="info fs-300">
-          <h3>
-            Athoxa Live Band
-          </h3>
+          <h3>Athoxa Live Band</h3>
           <p>
-            Si tienes un proyecto musical y te faltan músicos de calidad para
-            llevar tu interpretación al siguiente nivel nuestra Live Band te
-            puede ayudar. Contamos con los mejores músicos de la región.
+            Si ya realizas presentaciones pero te faltan músicos de calidad para
+            llevar tu interpretación al siguiente nivel, nuestra{" "}
+            <i>Athoxa Live Band</i> te puede asistir ya que contamos con los
+            mejores músicos de la región dispuestos a llevar a buen término tu
+            presentación ideal de manera rápida, eficiente y profesional ya sea
+            temporal o consistentemente.
           </p>
+          <div className="flex-center">
+            <button className="schedule-btn">Agendar Cita</button>
+          </div>
         </div>
       </article>
     </FlexCardsStyled>

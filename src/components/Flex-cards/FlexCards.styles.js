@@ -55,7 +55,7 @@ export const FlexCardsStyled = styled.section`
     width: 56px;
     border-radius: 15%;
     border: 2px solid white;
-    box-shadow: inset 0px 0px 70px hsl(var(--background-clr));
+    box-shadow: inset 0px 0px 60px hsl(var(--background-clr));
   }
 
   .info {
@@ -68,7 +68,7 @@ export const FlexCardsStyled = styled.section`
     font-weight: 600;
     text-transform: uppercase;
     text-align: center;
-    color: hsl(var(--background-clr) /0.8);
+    color: hsl(var(--background-clr));
     font-size: 20px;
     margin-bottom: 12px;
   }
@@ -77,6 +77,17 @@ export const FlexCardsStyled = styled.section`
     line-height: 1.3;
     margin-block: 3px;
     font-size: 16px;
+  }
+
+  .schedule-btn {
+    margin: 1.25rem auto 1rem;
+    font-family: var(--ff-inter);
+    background-color: hsl(var(--brand-yellow) /0.825);
+    font-weight: 600;
+    border: 0;
+    border-radius: 4px;
+    padding: 9px 38px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
   }
 
   @media (min-width: 55em) {

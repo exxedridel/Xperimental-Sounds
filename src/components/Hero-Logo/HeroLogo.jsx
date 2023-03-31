@@ -22,8 +22,6 @@ const HeroLogo = () => {
             Xperimental <span>Sounds</span>
           </p>
         </Fade>
-        {/* <p className="setapps">Set<b>apps</b></p>
-        <p className="brand-name">En español <span>fase 1</span></p> */}
       </div>
     </HeroLogoStyled>
   );
