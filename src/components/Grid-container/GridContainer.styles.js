@@ -2,15 +2,19 @@ import styled from "styled-components";
 import incubadora from "@assets/incubadora-musical.jpg";
 
 export const GridContainerStyled = styled.main`
+  text-align: center;
+
   & h2 {
     font-family: var(--ff-theseasons-reg-full);
     font-size: var(--fs-800);
+    
   }
 
   & p {
     line-height: 1.6;
     /* font-style: italic; */
     font-size: var(--fs-600);
+    margin-top: 2rem;
   }
 
   & article {
@@ -23,7 +27,7 @@ export const GridContainerStyled = styled.main`
     justify-content: right;
     height: 550px;
     max-width: 550px;
-    margin-top: 2rem;
+    margin-top: 3rem;
     margin-inline: auto;
     border-radius: 3px;
     background-size: cover;
@@ -34,12 +38,13 @@ export const GridContainerStyled = styled.main`
   }
 
   .XS {
-    padding: 1.5rem 2rem 0;
+    padding: 1.5rem 2.25rem 0;
     font-family: var(--ff-theseasons-reg-full);
     font-size: 70px;
   }
 
   @media (min-width: 58em) {
+    text-align: start;
     display: grid;
     place-items: center;
     column-gap: 2rem;
