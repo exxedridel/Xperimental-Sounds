@@ -139,13 +139,15 @@ const App = () => {
             </div>
             <Footer />
           </div>
-          <a href="/">
-            <FixedButton
-              src={whatsappColor}
-              className="opaque-img"
-              alt="whatsapp logo"
-            ></FixedButton>
-          </a>
+            <a href="/">
+              <div className="whatsapp-btn">
+                <FixedButton
+                  className="opaque-img"
+                  src={whatsappColor}
+                  alt="whatsapp logo"
+                />
+              </div>
+            </a>
         </>
       )}
     </>

@@ -36,7 +36,7 @@ export const FlexLinksStyled = styled.div`
   .link:focus {
     color: hsl(var(--brand-yellow));
     & .div-icon {
-      background-color: hsl(var(--background-clr) /0.9);
+      background-color: hsl(var(--background-clr) /0.925);
     }
     & .div-span {
       filter: grayscale(30%);
@@ -49,7 +49,7 @@ export const FlexLinksStyled = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: hsl(var(--background-clr) / 0.6);
+    background-color: hsl(var(--background-clr) / 0.55);
     position: relative;
     z-index: 1;
     display: inline-grid;

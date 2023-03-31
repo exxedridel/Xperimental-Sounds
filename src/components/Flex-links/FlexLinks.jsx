@@ -25,7 +25,7 @@ const FlexLinks = () => {
             <img src={productionIcon} alt="icon" />
           </div>
           <div className="div-span">
-            <span>Audio Empresarial y de Negocios</span>
+            <span>Audio Para Empresas</span>
           </div>
         </a>
       </Slide>

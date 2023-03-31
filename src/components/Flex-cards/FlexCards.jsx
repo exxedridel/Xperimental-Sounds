@@ -42,7 +42,7 @@ const FlexCards = () => {
           <img src={productionIcon} alt="production icon" />
         </div>
         <div className="info fs-300">
-          <h3>Música para empresas</h3>
+          <h3>Audio Para Empresas</h3>
           <p>
             En el área de producción de audio empresarial y de negocios
             llevaremos a tu negocio al siguiente nivel. Ofrecemos música para

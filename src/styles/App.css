@@ -101,6 +101,28 @@
   }
 }
 
+.whatsapp-btn {
+  position: fixed;
+  z-index: 1000;
+  bottom: clamp(0.1em, 4vw, 8em);
+  right: clamp(0.1em, 4vw, 8em);
+  height: 66px;
+  width: 66px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #4daf51;
+  border-radius: 50%;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+}
+@media (min-width: 65em) {
+  .whatsapp-btn {
+    height: 74px;
+    width: 74px;
+  }
+}
+
 @media (min-width: 45em) {
   #main-content {
     border: 9px solid hsl(var(--white));

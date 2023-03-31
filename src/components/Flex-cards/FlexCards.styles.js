@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const FlexCardsStyled = styled.section`
-  background-color: hsl(var(--background-clr) / 0.4);
+  background-color: hsl(var(--background-clr) / 0.55);
   border-radius: 4px;
   color: hsl(var(--brand-grey));
   padding: 5rem 10px 4rem;
@@ -82,12 +82,13 @@ export const FlexCardsStyled = styled.section`
   .schedule-btn {
     margin: 1.25rem auto 1rem;
     font-family: var(--ff-inter);
-    background-color: hsl(var(--brand-yellow) /0.825);
+    background-color: hsl(var(--background-clr) /0.825);
+    color: hsl(var(--white));
     font-weight: 600;
     border: 0;
     border-radius: 4px;
     padding: 9px 38px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
   }
 
   @media (min-width: 55em) {
