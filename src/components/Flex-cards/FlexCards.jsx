@@ -25,14 +25,16 @@ const FlexCards = () => {
         <div className="info fs-300">
           <h3>Incubadora Musical</h3>
           <p>
-            En nuestra incubadora musical te podemos ayudar a aterrizar tu
+            En nuestra incubadora musical te podremos ayudar a aterrizar tu
             proyecto como artista. Nuestros compositores te ayudarán en todo el
             proceso que conlleva crear desde un tema hasta un álbum completo.
-            Todas las creaciones tienen un público y sin importar el género que
-            te interese producir nosotros podemos impulsarte.
+            Todo talento tiene un público, y nosotros tenemos experiencia con
+            cualquier género musical que te interese interpretar.
           </p>
           <div className="flex-center">
-            <button className="schedule-btn">Agendar Cita</button>
+            <a href="/">
+              <button className="schedule-btn">Agendar Cita</button>
+            </a>
           </div>
         </div>
       </article>
@@ -44,14 +46,16 @@ const FlexCards = () => {
         <div className="info fs-300">
           <h3>Audio Para Empresas</h3>
           <p>
-            En el área de producción de audio empresarial y de negocios
-            llevaremos a tu negocio al siguiente nivel. Ofrecemos música para
-            comerciales de radio o TV, spots, redes sociales o cualquier mercado
-            al que quieras llegar. No importa que tan pequeño o grande sea tu
-            proyecto, nuestro equipo puede darle proyección a tu mensaje.
+            En el área de producción de audio para empresas y negocios te
+            ofrecemos música para comerciales de radio o TV (spots), redes
+            sociales o para cualquier campaña publicitaria que quieras realizar.
+            No importa que tan pequeño o grande sea el proyecto, nuestro equipo
+            de composición puede darle la proyección que tu mensaje requiera.
           </p>
           <div className="flex-center">
-            <button className="schedule-btn">Agendar Cita</button>
+            <a href="/">
+              <button className="schedule-btn">Agendar Cita</button>
+            </a>
           </div>
         </div>
       </article>
@@ -70,7 +74,9 @@ const FlexCards = () => {
             Contamos con instrumentales de todos géneros.
           </p>
           <div className="flex-center">
-            <button className="schedule-btn">Agendar Cita</button>
+            <a href="/">
+              <button className="schedule-btn">Agendar Cita</button>
+            </a>
           </div>
         </div>
       </article>
@@ -82,15 +88,16 @@ const FlexCards = () => {
         <div className="info fs-300">
           <h3>Athoxa Live Band</h3>
           <p>
-            Si ya realizas presentaciones pero te faltan músicos de calidad para
-            llevar tu interpretación al siguiente nivel, nuestra{" "}
-            <i>Athoxa Live Band</i> te puede asistir ya que contamos con los
-            mejores músicos de la región dispuestos a llevar a buen término tu
-            presentación ideal de manera rápida, eficiente y profesional ya sea
-            temporal o consistentemente.
+            Si ya realizas presentaciones pero te faltan músicos para llevar tu
+            interpretación al siguiente nivel, nuestra <i>Athoxa Live Band</i>{" "}
+            te puede asistir, contamos con músicos instruidos en las mejores
+            universidades del país para llevar tu presentación a buen término de
+            manera eficiente y profesional, ya sea ocasional o consistentemente.
           </p>
           <div className="flex-center">
-            <button className="schedule-btn">Agendar Cita</button>
+            <a href="/">
+              <button className="schedule-btn">Agendar Cita</button>
+            </a>
           </div>
         </div>
       </article>
