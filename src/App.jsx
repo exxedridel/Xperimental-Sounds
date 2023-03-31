@@ -48,13 +48,16 @@ const App = () => {
               >
                 Xperimental Sounds
               </Fade>
-              <Rotate duration="3000">
+              <Rotate delay={500} duration="1500">
                 <img
                   className="logo"
                   src={logo}
                   alt="Xperimental Sounds logo"
                 />
               </Rotate>
+              <Fade delay={1400} className="by-text text-accent uppercase">
+                <p>Por Pablo Palomares</p>
+              </Fade>
             </a>
             <div className="container flow-normal">
               <div className="flex-center text-centered">

@@ -20,9 +20,9 @@ const GridContainer = () => {
       </article>
       <div className="div-xs-image">
         <Fade
-          duration="3000"
+          duration="2000"
           cascade
-          damping={1e-1}
+          damping={0.15}
           className="XS text-accent"
         >
           XS

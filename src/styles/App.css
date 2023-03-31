@@ -2,7 +2,7 @@
   text-decoration: none;
   color: var(--white);
   border: 7px solid hsl(var(--white));
-  padding-block: 4rem;
+  padding-block: 3.5rem;
   /* background-color: hsl(var(--black) / 0.4);
   background: radial-gradient(
     circle,
@@ -24,18 +24,27 @@
 }
 .second-title {
   width: min-content;
-  margin-bottom: 1rem;
+  margin-bottom: clamp(1.2rem, 2vw, 1.7rem);
 }
 
 .logo-text {
   font-family: var(--ff-theseasons-lt-full);
-  font-size: clamp(1.5rem, 2vw, 2rem);
-  letter-spacing: 3px;
+  font-size: clamp(1.65rem, 6vw, 2.5rem);
+  letter-spacing: 2px;
+  font-weight: 600;
 }
 
 .logo {
-  padding-top: 1rem;
+  margin-top: clamp(1.2rem, 2vw, 1.5rem);
   width: clamp(160px, 35vw, 220px);
+}
+
+.by-text {
+  font-family: var(--ff-sans-cond);
+  /* font-size: clamp(1.25rem, 2vw, 1.6rem); */
+  font-size: clamp(0.875rem, 2vw, 1.1rem);
+  letter-spacing: 2px;
+  margin-top: clamp(1.2rem, 2vw, 1.7rem);
 }
 
 .subtitle {
@@ -84,9 +93,6 @@
     margin-block: 0.475rem;
     border-bottom-width: 3px;
   }
-  .second-title {
-    margin-bottom: 0.2rem;
-  }
   .hr-div {
     width: 200px;
   }
@@ -106,14 +112,5 @@
     margin-block: 0.75rem;
     width: 230px;
     border-bottom-width: 4px;
-  }
-  .second-title {
-    margin-bottom: 0.5rem;
-  }
-}
-
-@media (min-width: 75em) {
-  #main-content {
-    margin-top: 2.1rem;
   }
 }
