@@ -35,7 +35,7 @@ const FlexLinks = () => {
             <img src={personalBeatsIcon} alt="icon" />
           </div>
           <div className="div-span">
-            <span>Bases Musicales Personalizadas</span>
+            <span>BEATS Personalizados</span>
           </div>
         </a>
       </Slide>
