@@ -1,14 +1,19 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import BarLoader from "react-spinners/BarLoader";
 import { Fade, Flip } from "react-awesome-reveal";
 import { HeroLogoStyled } from "./HeroLogo.styles";
 import Background from "@assets/bg-xs.svg";
 import Logo from "@assets/xs-circle-final2.svg";
 
 const HeroLogo = () => {
-  // function scrollToContent() {
-  //   const element = document.getElementById("main-content");
-  //   element.scrollIntoView();
-  // }
+  let [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+    }, 2500);
+  }, []);
 
   return (
     <HeroLogoStyled>
@@ -17,11 +22,22 @@ const HeroLogo = () => {
         <Flip className="brand-logo">
           <img src={Logo} alt="Logo Xperimental Sounds" />
         </Flip>
-        <Fade delay={1e3} className="brand-name">
-          <p>
-            Xperimental <span>Sounds</span>
-          </p>
-        </Fade>
+        <div>
+          <Fade delay={1e3} className="brand-name">
+            <p>
+              Xperimental <span>Sounds</span>
+            </p>
+          </Fade>
+          <div className="loader">
+            <BarLoader
+              color={"#002233"}
+              loading={loading}
+              width={175}
+              aria-label="Loading Spinner"
+              data-testid="loader"
+            />
+          </div>
+        </div>
       </div>
     </HeroLogoStyled>
   );

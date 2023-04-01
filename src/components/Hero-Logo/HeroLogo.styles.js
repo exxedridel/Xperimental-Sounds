@@ -8,6 +8,11 @@ export const HeroLogoStyled = styled.section`
   justify-content: center;
   align-items: center;
 
+  .loader {
+    display: flex;
+    justify-content: center;
+  }
+
   .background {
     width: 100%;
     height: 100vh;
@@ -62,6 +67,11 @@ export const HeroLogoStyled = styled.section`
 
   // * Tablet & Landscape *
   @media (min-width: 35em) {
+    .loader {
+      justify-content: start;
+      margin-left: 10px;
+    }
+
     .overlaped {
       flex-direction: row;
       margin-inline: 0rem;
