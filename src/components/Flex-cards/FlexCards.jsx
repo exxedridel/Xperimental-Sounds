@@ -90,8 +90,8 @@ const FlexCards = () => {
           <p>
             Si ya realizas presentaciones pero te faltan músicos para llevar tu
             interpretación al siguiente nivel, nuestra <i>Athoxa Live Band</i>{" "}
-            te puede asistir, contamos con músicos instruidos en las mejores
-            universidades del país para llevar tu presentación a buen término de
+            te puede asistir. Contamos con instrumentistas de las mejores
+            universidades del país para acompañarte en tu presentación de
             manera eficiente y profesional, ya sea ocasional o consistentemente.
           </p>
           <div className="flex-center">
