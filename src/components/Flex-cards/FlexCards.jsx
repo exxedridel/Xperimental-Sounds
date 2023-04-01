@@ -71,7 +71,7 @@ const FlexCards = () => {
             compartido en YouTube? ¡Añádeles tu propia personalidad! nosotros
             podemos componer bases personalizadas para que verdaderamente
             impactes en tus presentaciones con el máximo nivel de calidad.
-            Contamos con instrumentales de todos géneros.
+            Contamos con instrumentales de todos los géneros.
           </p>
           <div className="flex-center">
             <a href="/">
