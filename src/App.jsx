@@ -1,17 +1,18 @@
 import React, { useEffect, useState } from "react";
 import { Fade, Flip, Rotate } from "react-awesome-reveal";
-import HeroLogo from "./components/Hero-Logo/HeroLogo";
+import LoadingLogo from "./components/Loading-Logo/LoadingLogo";
 import GridContainer from "./components/Grid-container/GridContainer";
 import FlexCards from "./components/Flex-cards/FlexCards";
 import FlexLinks from "./components/Flex-links/FlexLinks";
 import Footer from "./components/Footer-simple/Footer";
+import wavy from "@assets/wavy-dark-ptrn.jpg";
 import logo from "@assets/xs-circle-final.svg";
 import facebook from "@assets/facebook.png";
 import youtube from "@assets/youtube.png";
 import whatsapp from "@assets/whatsapp.png";
 import instagram from "@assets/instagram.png";
-import { FixedButton } from "./styles/FixedButton.styles";
 import whatsappColor from "@assets/whatsapp-color.png";
+import { FixedButton } from "./styles/FixedButton.styles";
 import "./styles/global.css";
 import "./styles/App.css";
 
@@ -25,10 +26,14 @@ const App = () => {
     }, 2500);
   }, []);
 
+  const heroBackground = {
+    backgroundImage: `url(${wavy})`,
+  };
+
   return (
     <>
       {loading ? (
-        <HeroLogo />
+        <LoadingLogo />
       ) : (
         <>
           <div className="App flow">
@@ -36,6 +41,7 @@ const App = () => {
               id="main-content"
               href="#about"
               className="container flex-center-small"
+              style={heroBackground}
             >
               <h1 className="fs-900">Estudio de Producción</h1>
               <div className="title-div"></div>
@@ -72,6 +78,7 @@ const App = () => {
             <div id="about" className="container">
               <GridContainer />
             </div>
+
             <div className="container">
               <FlexCards />
             </div>
@@ -139,15 +146,15 @@ const App = () => {
             </div>
             <Footer />
           </div>
-            <a href="/">
-              <div className="whatsapp-btn">
-                <FixedButton
-                  className="opaque-img"
-                  src={whatsappColor}
-                  alt="whatsapp logo"
-                />
-              </div>
-            </a>
+          <a href="/">
+            <div className="whatsapp-btn">
+              <FixedButton
+                className="opaque-img"
+                src={whatsappColor}
+                alt="whatsapp logo"
+              />
+            </div>
+          </a>
         </>
       )}
     </>

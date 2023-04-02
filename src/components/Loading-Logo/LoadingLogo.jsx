@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
 import BarLoader from "react-spinners/BarLoader";
 import { Fade, Flip } from "react-awesome-reveal";
-import { HeroLogoStyled } from "./HeroLogo.styles";
+import { LoadingLogoStyled } from "./LoadingLogo.styles";
 import Background from "@assets/bg-xs.svg";
 import Logo from "@assets/xs-circle-final2.svg";
 
-const HeroLogo = () => {
+const LoadingLogo = () => {
   let [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -16,7 +16,7 @@ const HeroLogo = () => {
   }, []);
 
   return (
-    <HeroLogoStyled>
+    <LoadingLogoStyled>
       <img className="background" src={Background} alt="beats yellow" />
       <div className="overlaped">
         <Flip className="brand-logo">
@@ -39,8 +39,8 @@ const HeroLogo = () => {
           </div>
         </div>
       </div>
-    </HeroLogoStyled>
+    </LoadingLogoStyled>
   );
 };
 
-export default HeroLogo;
+export default LoadingLogo;

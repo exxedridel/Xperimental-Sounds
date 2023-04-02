@@ -3,15 +3,8 @@
   color: var(--white);
   border: 7px solid hsl(var(--white));
   padding-block: 3.5rem;
-  /* background-color: hsl(var(--black) / 0.4);
-  background: radial-gradient(
-    circle,
-    hsl(var(--white) / 0.065),
-    hsl(var(--black) / 0.45)
-  ); */
   background-size: cover;
   background-position: center;
-  background-image: url("https://img.freepik.com/free-vector/wavy-line-pattern-dark-background_1409-1670.jpg?w=1380&t=st=1680047489~exp=1680048089~hmac=71a9a84c4f147ff678eee8f6f9d66057c7a4f55486ddacaccb31a9b1198a9482");
   box-shadow: 3px 3px 50px hsl(var(--black) / 0.7);
 }
 

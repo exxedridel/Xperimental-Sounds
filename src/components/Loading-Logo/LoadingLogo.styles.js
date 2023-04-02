@@ -1,8 +1,6 @@
 import styled from "styled-components";
 
-export const HeroLogoStyled = styled.section`
-  @import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&family=Open+Sans:wght@300;400;500;600;700&family=Raleway:wght@300;400;500&display=swap");
-
+export const LoadingLogoStyled = styled.section`
   position: relative;
   display: flex;
   justify-content: center;
