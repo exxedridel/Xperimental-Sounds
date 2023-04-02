@@ -47,6 +47,7 @@ const App = () => {
               <div className="title-div"></div>
               <h1 className="second-title fs-900">Incubadora Musical</h1>
               <Fade
+                triggerOnce="true"
                 duration="450"
                 cascade
                 damping={1e-1}
@@ -61,7 +62,7 @@ const App = () => {
                   alt="Xperimental Sounds logo"
                 />
               </Rotate>
-              <Fade delay={1400} className="by-text text-accent uppercase">
+              <Fade triggerOnce="true" delay={1400} className="by-text text-accent uppercase">
                 <p>Por Pablo Palomares</p>
               </Fade>
             </a>

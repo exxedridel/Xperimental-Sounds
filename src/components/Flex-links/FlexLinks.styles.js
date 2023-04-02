@@ -16,7 +16,7 @@ export const FlexLinksStyled = styled.div`
     cursor: pointer;
     text-decoration: none;
     color: hsl(var(--white));
-    background-color: hsl(var(--background-clr) / 0.2);
+    background-color: hsl(var(--background-clr) / 0.35);
     height: 150px;
     border-radius: 6px;
     display: flex;
@@ -36,7 +36,7 @@ export const FlexLinksStyled = styled.div`
   .link:focus {
     color: hsl(var(--brand-yellow));
     & .div-icon {
-      background-color: hsl(var(--background-clr) /0.925);
+      background-color: hsl(var(--black) /0.3);
     }
     & .div-span {
       filter: grayscale(30%);
@@ -49,7 +49,8 @@ export const FlexLinksStyled = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: hsl(var(--background-clr) / 0.55);
+    background-color: hsl(var(--white) / 0.05);
+    backdrop-filter: blur(1.5rem);
     position: relative;
     z-index: 1;
     display: inline-grid;
@@ -88,6 +89,7 @@ export const FlexLinksStyled = styled.div`
     text-align: center;
     border-radius: 0 6px 6px 0;
     filter: grayscale(100%);
+    
     & span {
       font-family: var(--ff-sans-cond);
       font-size: var(--fs-700);

@@ -73,6 +73,7 @@
     hsl(var(--white) / 0.075),
     hsl(var(--black) / 0.1)
   );
+  backdrop-filter: blur(0.5px);
   color: hsl(var(--white));
   font-size: var(--fs-400);
   line-height: 1.5;
