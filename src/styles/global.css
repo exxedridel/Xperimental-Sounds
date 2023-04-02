@@ -39,6 +39,9 @@
   --fs-400: 1rem;
   --fs-300: clamp(0.875rem, 2vw, 1rem);
   --fs-200: 0.875rem;
+
+  /* clip-path: <blank>*/
+  --clippy: circle(0.0% at 50% 50%);
 }
 /* -------------------------------------------- */
 /*                Reset as in:                  */

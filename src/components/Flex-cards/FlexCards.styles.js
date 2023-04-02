@@ -30,11 +30,14 @@ export const FlexCardsStyled = styled.section`
   .card:hover {
     transform: translateY(-2.5%);
     box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 0.6);
-    & .icon-production img {
+    .icon-production img {
       box-shadow: inset 0px 0px 300px hsl(var(--background-clr));
     }
-    & .info h3 {
+    .info h3 {
       color: hsl(var(--background-clr));
+    }
+    .schedule-btn::before {
+      clip-path: circle(150% at 50% 50%);
     }
   }
 
@@ -82,22 +85,38 @@ export const FlexCardsStyled = styled.section`
   .schedule-btn {
     margin: 1.25rem auto 1rem;
     font-family: var(--ff-inter);
-    background-color: hsl(var(--background-clr) /0.825);
-    color: hsl(var(--white));
+    background-color: #FFD84C;
+    color: #3b0066;
+    font-family: var(--ff-sans-cond);
+    /* font-size: 16px; */
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
     font-weight: 600;
     border: 0;
     border-radius: 4px;
-    padding: 9px 38px;
+    padding: 15px 35px;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+    position: relative;
+    z-index: 0;
+  }
+  .schedule-btn::before {
+    border-radius: 4px;
+    content: "";
+    display: block;
+    background: #FFE86B;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    clip-path: var(--clippy);
+    transition: clip-path 0.6s ease-in-out;
   }
 
   @media (min-width: 55em) {
     & {
       gap: 6rem;
-    }
-
-    .card:hover {
-      transform: translateY(-5%);
     }
   }
 `;
