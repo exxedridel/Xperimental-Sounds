@@ -85,8 +85,8 @@ export const FlexCardsStyled = styled.section`
   .schedule-btn {
     margin: 1.25rem auto 1rem;
     font-family: var(--ff-inter);
-    background-color: #FFD84C;
-    color: #3b0066;
+    background-color: hsl(var(--background-clr) /0.8);
+    color: hsl(var(--white));
     font-family: var(--ff-sans-cond);
     /* font-size: 16px; */
     text-transform: uppercase;
@@ -103,7 +103,7 @@ export const FlexCardsStyled = styled.section`
     border-radius: 4px;
     content: "";
     display: block;
-    background: #FFE86B;
+    background: hsl(var(--brand-blue));
     width: 100%;
     height: 100%;
     position: absolute;
