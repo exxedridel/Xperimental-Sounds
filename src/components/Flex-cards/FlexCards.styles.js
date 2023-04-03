@@ -14,7 +14,7 @@ export const FlexCardsStyled = styled.section`
     cursor: pointer;
     flex-basis: 330px;
     border: none;
-    border-radius: 3px;
+    border-radius: 4px;
     display: flex;
     flex-direction: column;
     background-color: hsl(var(--white));
@@ -45,7 +45,7 @@ export const FlexCardsStyled = styled.section`
     width: 100%;
     height: 220px;
     align-self: center;
-    border-radius: 3px 3px 0 0;
+    border-radius: 4px 4px 0 0;
     object-fit: cover;
   }
 
