@@ -55,7 +55,7 @@ const App = () => {
               >
                 Xperimental Sounds
               </Fade>
-              <Rotate delay={500} duration="1500">
+              <Rotate triggerOnce="true" delay={500} duration="1500">
                 <img
                   className="logo"
                   src={logo}
