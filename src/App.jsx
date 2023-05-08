@@ -94,11 +94,15 @@ const App = () => {
                 <div className="hr-div"></div>
               </div>
               {/* <AccordionBS /> */}
-              <p className="call-to-contact fs-500 text-centered">
-                Si tienes cualquier duda puedes mandarnos un mensaje a nuestro
-                Whatsapp sin ningún compromiso, también puedes conocer más de
-                nuestro trabajo a través de nuestas redes sociales.
-              </p>
+              <div className="call-to-contact fs-500">
+                <h4 className="text-centered">Todos nuestros servicios incluyen:</h4>
+                <br />
+                <ul>
+                  <li>Atención personalizada vía Zoom/Discord.</li>
+                  <li>Respuesta rápida para aclaraciones o correciones por medio de llamada telefónica, Whats app, Telegram o iMessage.</li>
+                  <li>Mezcla y master digital. (No aplica para Athoxa Live Band).</li>
+                </ul>
+              </div>
             </div>
 
             <div id="contact-sect" className="container">

@@ -77,6 +77,7 @@ export const FlexCardsStyled = styled.section`
   }
 
   .info p {
+    // text-align: justify;
     line-height: 1.3;
     margin-block: 3px;
     font-size: 16px;
