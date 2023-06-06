@@ -6,7 +6,7 @@ import FlexCards from "./components/Flex-cards/FlexCards";
 import FlexLinks from "./components/Flex-links/FlexLinks";
 import Footer from "./components/Footer-simple/Footer";
 import wavy from "@assets/wavy-dark-ptrn.jpg";
-import logo from "@assets/xs-circle-final.svg";
+import logo from "@assets/Logo_MockupXS.png";
 import facebook from "@assets/facebook.png";
 import youtube from "@assets/youtube.png";
 import whatsapp from "@assets/whatsapp.png";
