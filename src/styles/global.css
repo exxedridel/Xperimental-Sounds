@@ -241,6 +241,11 @@ select {
   place-items: center;
 }
 
+.grid-center {
+  display: grid;
+  place-items: center;
+}
+
 .flow > *:where(:not(:first-child)) {
   margin-top: clamp(4.25rem, 5.5vw + 1rem, 6.5rem);
 }

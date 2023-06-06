@@ -1,8 +1,9 @@
 #main-content {
   text-decoration: none;
   color: var(--white);
-  border: 7px solid hsl(var(--white));
-  padding-block: 3.5rem;
+  /* border: 7px solid hsl(var(--white)); */
+  height: 80vh;
+  padding-top: 3rem;
   background-size: cover;
   background-position: center;
   box-shadow: 3px 3px 50px hsl(var(--black) / 0.7);
@@ -28,8 +29,9 @@
 }
 
 .logo {
-  margin-top: clamp(1.2rem, 2vw, 1.5rem);
-  width: clamp(160px, 35vw, 220px);
+  /* margin-top: clamp(1.2rem, 2vw, 1.5rem); */
+  /* width: clamp(160px, 35vw, 220px); */
+  width: 1200px;
 }
 
 .by-text {
@@ -81,7 +83,7 @@
 
 @media (min-width: 35em) {
   #main-content {
-    border: 8px solid hsl(var(--white));
+    /* border: 8px solid hsl(var(--white)); */
   }
   .title-div {
     margin-block: 0.475rem;
@@ -122,7 +124,7 @@
 
 @media (min-width: 45em) {
   #main-content {
-    border: 9px solid hsl(var(--white));
+    /* border: 9px solid hsl(var(--white)); */
   }
   #main-content > h1 {
     letter-spacing: 7px;

@@ -5,7 +5,9 @@ import GridContainer from "./components/Grid-container/GridContainer";
 import FlexCards from "./components/Flex-cards/FlexCards";
 import FlexLinks from "./components/Flex-links/FlexLinks";
 import Footer from "./components/Footer-simple/Footer";
-import wavy from "@assets/wavy-dark-ptrn.jpg";
+// import wavy from "@assets/wavy-dark-ptrn.jpg";
+import heroBg from "@assets/hero-bg.jpg";
+// import logo from "@assets/xs-circle-final.svg";
 import logo from "@assets/Logo_MockupXS.png";
 import facebook from "@assets/facebook.png";
 import youtube from "@assets/youtube.png";
@@ -27,23 +29,23 @@ const App = () => {
   }, []);
 
   const heroBackground = {
-    backgroundImage: `url(${wavy})`,
+    backgroundImage: `url(${heroBg})`,
   };
 
   return (
     <>
-      {loading ? (
+      {/* {loading ? (
         <LoadingLogo />
-      ) : (
+      ) : ( */}
         <>
           <div className="App flow">
             <a
               id="main-content"
               href="#about"
-              className="container flex-center-small"
+              className="grid-center"
               style={heroBackground}
             >
-              <h1 className="fs-900">Estudio de Producción</h1>
+              {/* <h1 className="fs-900">Estudio de Producción</h1>
               <div className="title-div"></div>
               <h1 className="second-title fs-900">Incubadora Musical</h1>
               <Fade
@@ -54,17 +56,17 @@ const App = () => {
                 className="logo-text text-accent"
               >
                 Xperimental Sounds
-              </Fade>
-              <Rotate triggerOnce="true" delay={500} duration="1500">
+              </Fade> */}
+              <Fade triggerOnce="true" duration="3500">
                 <img
                   className="logo"
                   src={logo}
                   alt="Xperimental Sounds logo"
                 />
-              </Rotate>
-              <Fade triggerOnce="true" delay={1400} className="by-text text-accent uppercase">
-                <p>Por Pablo Palomares</p>
               </Fade>
+              {/* <Fade triggerOnce="true" delay={1400} className="by-text text-accent uppercase">
+                <p>Por Pablo Palomares</p>
+              </Fade> */}
             </a>
             <div className="container flow-normal">
               <div className="flex-center text-centered">
@@ -161,7 +163,7 @@ const App = () => {
             </div>
           </a>
         </>
-      )}
+      {/* )} */}
     </>
   );
 };
