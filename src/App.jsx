@@ -8,7 +8,7 @@ import Footer from "./components/Footer-simple/Footer";
 // import wavy from "@assets/wavy-dark-ptrn.jpg";
 import heroBg from "@assets/hero-bg.jpg";
 // import logo from "@assets/xs-circle-final.svg";
-import logo from "@assets/LogoXS.svg";
+import logo from "@assets/Logo_MockupXS.png";
 import facebook from "@assets/facebook.png";
 import youtube from "@assets/youtube.png";
 import whatsapp from "@assets/whatsapp.png";
