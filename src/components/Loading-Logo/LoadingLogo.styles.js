@@ -53,7 +53,7 @@ export const LoadingLogoStyled = styled.section`
     letter-spacing: 2px;
     line-height: 1.1;
     margin: 7.5px;
-    font-family: var(--ff-theseasons-reg-full);
+    font-family: var(--ff-burial);
     font-size: var(--fs-900);
     font-weight: 500;
     color: hsl(var(--black));

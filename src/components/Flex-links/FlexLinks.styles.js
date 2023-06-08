@@ -91,12 +91,10 @@ export const FlexLinksStyled = styled.div`
     filter: grayscale(100%);
     
     & span {
-      font-family: var(--ff-sans-cond);
       font-size: var(--fs-700);
       font-weight: 600;
       text-transform: uppercase;
       text-shadow: 1px 1px 3px black;
-      letter-spacing: 1px;
       max-width: 19ch;
     }
   }
@@ -159,7 +157,7 @@ export const FlexLinksStyled = styled.div`
 
     .div-span {
       & span {
-        letter-spacing: 2px;
+        letter-spacing: 5px;
         max-width: 50ch;
       }
     }

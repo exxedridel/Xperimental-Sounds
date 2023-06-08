@@ -5,15 +5,12 @@ export const GridContainerStyled = styled.main`
   text-align: center;
 
   & h2 {
-    font-family: var(--ff-theseasons-reg-full);
     font-size: var(--fs-800);
     
   }
 
   & p {
     line-height: 1.5;
-    letter-spacing: 1px;
-    font-style: italic;
     font-size: var(--fs-500);
     font-weight: 300;
     margin-top: 2rem;
@@ -41,7 +38,7 @@ export const GridContainerStyled = styled.main`
 
   .XS {
     padding: 1.5rem 2.25rem 0;
-    font-family: var(--ff-theseasons-reg-full);
+    font-family: var(--ff-burial);
     font-size: 70px;
   }
 

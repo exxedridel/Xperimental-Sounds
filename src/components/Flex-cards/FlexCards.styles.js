@@ -66,8 +66,6 @@ export const FlexCardsStyled = styled.section`
   }
 
   .info h3 {
-    font-family: var(--ff-theseasons-reg-full);
-    letter-spacing: 1.5px;
     font-weight: 600;
     text-transform: uppercase;
     text-align: center;
@@ -77,21 +75,20 @@ export const FlexCardsStyled = styled.section`
   }
 
   .info p {
-    // text-align: justify;
+    letter-spacing: 2px;
     line-height: 1.3;
     margin-block: 3px;
-    font-size: 16px;
+    // font-size: 16px;
+    font-size: var(--fs-500);
   }
 
   .schedule-btn {
     margin: 1.25rem auto 1rem;
-    font-family: var(--ff-inter);
     background-color: hsl(var(--background-clr) /0.8);
     color: hsl(var(--white));
-    font-family: var(--ff-sans-cond);
     /* font-size: 16px; */
     text-transform: uppercase;
-    letter-spacing: 0.5px;
+    letter-spacing: 4px;
     font-weight: 600;
     border: 0;
     border-radius: 4px;
