@@ -2,7 +2,7 @@
   text-decoration: none;
   color: var(--white);
   /* border: 7px solid hsl(var(--white)); */
-  height: 80vh;
+  height: 775px;
   background-size: cover;
   background-position: center;
   box-shadow: 3px 3px 50px hsl(var(--black) / 0.7);
@@ -74,6 +74,14 @@
   backdrop-filter: blur(0.5px);
   color: hsl(var(--white));
   line-height: 1.5;
+}
+
+.flex-row-esta {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 50px
 }
 
 @media (min-width: 35em) {

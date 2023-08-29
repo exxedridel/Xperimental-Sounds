@@ -28,8 +28,8 @@ const FlexCards = () => {
             Te ayudaremos a concretar tu proyecto como artista. Nuestros compositores te ayudarán en todo el proceso que va desde crear desde un tema (single) hasta un álbum completo. Seas un artista emergente o con trayectoria todo talento tiene un público y nosotros llevaremos tu talento al siguiente nivel.
           </p>
           <div className="flex-center">
-            <a href="/">
-              <button className="schedule-btn">Agendar Cita</button>
+            <a href="https://wa.me/message/R4UWMQQNIURVE1">
+              <button className="schedule-btn">Información</button>
             </a>
           </div>
         </div>
@@ -45,8 +45,8 @@ const FlexCards = () => {
             Acapara la atención de más clientes dándole ese toque original al audio / música para que tu publicidad en redes sociales, comerciales de radio o TV (spots), o cualquier campaña publicitaria que quieras llevar a cabo tenga el impacto necesario y llegue a más personas. No importa que tan pequeño o grande sea el proyecto, nuestro equipo de compositores / arreglistas pueden darle la proyección que tu mensaje requiera.
           </p>
           <div className="flex-center">
-            <a href="/">
-              <button className="schedule-btn">Agendar Cita</button>
+            <a href="https://wa.me/message/R4UWMQQNIURVE1">
+              <button className="schedule-btn">Información</button>
             </a>
           </div>
         </div>
@@ -62,8 +62,8 @@ const FlexCards = () => {
             ¿Estas cansado de presentar tus composiciones con música/beats de uso compartido en YouTube y que tu música suene igual a la de los demás? ¡Añádeles tu propio estilo! Podemos componer bases musicales personalizadas para que impactes en tus presentaciones con la originalidad y el máximo nivel de calidad que tu música se merece. Contamos con instrumentales de todos los géneros 100% originales.
           </p>
           <div className="flex-center">
-            <a href="/">
-              <button className="schedule-btn">Agendar Cita</button>
+            <a href="https://wa.me/message/R4UWMQQNIURVE1">
+              <button className="schedule-btn">Información</button>
             </a>
           </div>
         </div>
@@ -79,8 +79,8 @@ const FlexCards = () => {
           Si ya realizas presentaciones, pero te faltan músicos para llevar tu interpretación al siguiente nivel, nuestra Athoxa Live Band es lo que necesitas. Tenemos contacto directo con los mejores instrumentistas de la región quienes podrán acompañarte en tus presentaciones con un nivel de ejecución profesional. Ya sea que necesites un solo músico o una banda / ensamble entero nosotros te podemos ayudar.
           </p>
           <div className="flex-center">
-            <a href="/">
-              <button className="schedule-btn">Agendar Cita</button>
+            <a href="https://wa.me/message/R4UWMQQNIURVE1">
+              <button className="schedule-btn">Información</button>
             </a>
           </div>
         </div>

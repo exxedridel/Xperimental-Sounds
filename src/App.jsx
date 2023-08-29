@@ -10,8 +10,9 @@ import heroBg from "@assets/hero-bg.jpg";
 // import logo from "@assets/xs-circle-final.svg";
 import logo from "@assets/Logo_MockupXS.png";
 import facebook from "@assets/facebook.png";
-// import youtube from "@assets/youtube.png";
+import youtube from "@assets/youtube.png";
 import whatsapp from "@assets/whatsapp.png";
+import mail from "@assets/correo-electronico.png";
 import instagram from "@assets/instagram.png";
 import whatsappColor from "@assets/whatsapp-color.png";
 import { FixedButton } from "./styles/FixedButton.styles";
@@ -106,18 +107,32 @@ const App = () => {
                 <h2 className="subtitle">Contáctanos</h2>
               </Fade>
               <div className="hr-contact"></div>
-              <a href="/">
-                <Flip duration="2000">
-                  <img
-                    src={whatsapp}
-                    className="opaque-img"
-                    alt="whatsapp logo"
-                  />
-                </Flip>
-              </a>
+              <div className="flex-row-esta">
+                <a href="https://wa.me/message/R4UWMQQNIURVE1">
+                  <Flip duration="2000">
+                    <img
+                      src={whatsapp}
+                      className="opaque-img"
+                      style={{ height: "48px", width: "48px" }}
+                      alt="whatsapp logo"
+                    />
+                  </Flip>
+                </a>
+                <a href="mailto:contacto@xperimentalsounds.com">
+                  <Flip duration="2000">
+                    <img
+                      className="opaque-img"
+                      src={mail}
+                      style={{ height: "48px", width: "48px" }}
+                      alt="instagram logo"
+                    />
+                  </Flip>
+                </a>
+              </div>
+
               <p className="fs-500">Síguenos en nuestras redes:</p>
               <div className="flex">
-                <a href="/">
+                <a href="https://www.facebook.com/profile.php?id=100091305495109">
                   <img
                     src={facebook}
                     className="opaque-img"
@@ -125,15 +140,15 @@ const App = () => {
                     alt="facebook logo"
                   />
                 </a>
-                {/* <a href="/">
-                    <img
-                      className="opaque-img"
-                      src={youtube}
-                      style={{ height: "48px", width: "48px" }}
-                      alt="youtube logo"
-                    />
-                  </a> */}
-                <a href="/">
+                <a href="https://www.youtube.com/channel/UC2puKYEes15af-qH8kPO3lw/?sub_confirmation=1">
+                  <img
+                    className="opaque-img"
+                    src={youtube}
+                    style={{ height: "48px", width: "48px" }}
+                    alt="youtube logo"
+                  />
+                </a>
+                <a href="https://www.instagram.com/xperimentalsounds/">
                   <img
                     className="opaque-img"
                     src={instagram}
@@ -146,7 +161,7 @@ const App = () => {
           </div>
           <Footer />
         </div>
-        <a href="/">
+        <a href="https://wa.me/message/R4UWMQQNIURVE1">
           <div className="whatsapp-btn">
             <FixedButton
               className="opaque-img"
