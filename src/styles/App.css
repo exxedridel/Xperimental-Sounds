@@ -26,7 +26,17 @@
 .logo {
   /* margin-top: clamp(1.2rem, 2vw, 1.5rem); */
   /* width: clamp(160px, 35vw, 220px); */
-  width: 700px;
+  width: 750px;
+  margin-top: -180px;
+  margin-left: -10px;
+}
+
+@media (max-width: 750px) {
+  .logo {
+    width: 500px;
+    height: 550px;
+    object-fit: cover;
+  }
 }
 
 .hero-btn {
@@ -51,6 +61,31 @@
   margin-block: 0.3rem;
 }
 
+.link {
+  font-size: 26px;
+  cursor: pointer;
+  text-decoration: none;
+  color: hsl(var(--white));
+  background-color: hsl(var(--background-clr) / 0.6);
+  margin-bottom: 5px;
+  padding-inline: 14px;
+  padding-block: 7px;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
+  transition: color 0.3s ease;
+
+  & .div-icon {
+    transition: background-color 0.3s ease;
+  }
+
+  & .div-span {
+    transition: filter 0.3s ease;
+  }
+}
+
 .hr-div,
 .hr-contact {
   border-bottom: 1px solid hsl(var(--white));
@@ -65,12 +100,10 @@
   border: 5px solid hsl(var(--white));
   padding: 2rem;
   background-color: hsl(var(--black) / 0.4);
-  background: linear-gradient(
-    50deg,
-    hsl(var(--black) / 0.4),
-    hsl(var(--white) / 0.06),
-    hsl(var(--black) / 0.4)
-  );
+  background: linear-gradient(50deg,
+      hsl(var(--black) / 0.4),
+      hsl(var(--white) / 0.06),
+      hsl(var(--black) / 0.4));
   backdrop-filter: blur(0.5px);
   color: hsl(var(--white));
   line-height: 1.5;
@@ -88,13 +121,16 @@
   #main-content {
     /* border: 8px solid hsl(var(--white)); */
   }
+
   .title-div {
     margin-block: 0.475rem;
     border-bottom-width: 3px;
   }
+
   .hr-div {
     width: 200px;
   }
+
   .call-to-contact {
     padding: 4rem;
   }
@@ -115,11 +151,13 @@
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
   transition: all 0.3s ease;
 }
+
 @media (min-width: 65em) {
   .whatsapp-btn {
     height: 74px;
     width: 74px;
   }
+
   .call-to-contact {
     padding: 4rem 6rem;
   }
@@ -129,6 +167,7 @@
   #main-content {
     /* border: 9px solid hsl(var(--white)); */
   }
+
   .title-div {
     margin-block: 0.75rem;
     width: 230px;

@@ -8,7 +8,7 @@ import Footer from "./components/Footer-simple/Footer";
 // import wavy from "@assets/wavy-dark-ptrn.jpg";
 import heroBg from "@assets/hero-bg.jpg";
 // import logo from "@assets/xs-circle-final.svg";
-import logo from "@assets/Logo_MockupXS.png";
+import logo from "@assets/ES-Logo.png";
 import facebook from "@assets/facebook.png";
 import youtube from "@assets/youtube.png";
 import whatsapp from "@assets/whatsapp.png";
@@ -105,10 +105,11 @@ const App = () => {
             <div className="flex-center text-centered">
               <Fade>
                 <h2 className="subtitle">Contáctanos</h2>
+                <a href="tel:+524463873213"  className="link">446-387-3213</a>
               </Fade>
               <div className="hr-contact"></div>
               <div className="flex-row-esta">
-                <a href="https://wa.me/message/R4UWMQQNIURVE1">
+                <a href="http://wa.me/524463873213">
                   <Flip duration="2000">
                     <img
                       src={whatsapp}
@@ -161,7 +162,7 @@ const App = () => {
           </div>
           <Footer />
         </div>
-        <a href="https://wa.me/message/R4UWMQQNIURVE1">
+        <a href="http://wa.me/524463873213">
           <div className="whatsapp-btn">
             <FixedButton
               className="opaque-img"
